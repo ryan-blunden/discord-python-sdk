@@ -1,0 +1,14 @@
+# StickerPackResponse
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `id`                                                                         | *str*                                                                        | :heavy_check_mark:                                                           | N/A                                                                          |
+| `sku_id`                                                                     | *str*                                                                        | :heavy_check_mark:                                                           | N/A                                                                          |
+| `name`                                                                       | *str*                                                                        | :heavy_check_mark:                                                           | N/A                                                                          |
+| `stickers`                                                                   | List[[models.StandardStickerResponse](../models/standardstickerresponse.md)] | :heavy_check_mark:                                                           | N/A                                                                          |
+| `description`                                                                | *OptionalNullable[str]*                                                      | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `cover_sticker_id`                                                           | *OptionalNullable[str]*                                                      | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `banner_asset_id`                                                            | *OptionalNullable[str]*                                                      | :heavy_minus_sign:                                                           | N/A                                                                          |

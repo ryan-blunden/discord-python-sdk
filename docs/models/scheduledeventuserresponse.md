@@ -1,0 +1,11 @@
+# ScheduledEventUserResponse
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `guild_scheduled_event_id`                                                       | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `user_id`                                                                        | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `user`                                                                           | [OptionalNullable[models.UserResponse]](../models/userresponse.md)               | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `member`                                                                         | [OptionalNullable[models.GuildMemberResponse]](../models/guildmemberresponse.md) | :heavy_minus_sign:                                                               | N/A                                                                              |

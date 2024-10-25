@@ -1,0 +1,11 @@
+# CommandPermissionsResponse
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `id`                                                                             | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `application_id`                                                                 | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `guild_id`                                                                       | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `permissions`                                                                    | List[[models.CommandPermissionResponse](../models/commandpermissionresponse.md)] | :heavy_check_mark:                                                               | N/A                                                                              |

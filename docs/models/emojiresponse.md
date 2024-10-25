@@ -1,0 +1,15 @@
+# EmojiResponse
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `id`                                                               | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `name`                                                             | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `roles`                                                            | List[*str*]                                                        | :heavy_check_mark:                                                 | N/A                                                                |
+| `require_colons`                                                   | *bool*                                                             | :heavy_check_mark:                                                 | N/A                                                                |
+| `managed`                                                          | *bool*                                                             | :heavy_check_mark:                                                 | N/A                                                                |
+| `animated`                                                         | *bool*                                                             | :heavy_check_mark:                                                 | N/A                                                                |
+| `available`                                                        | *bool*                                                             | :heavy_check_mark:                                                 | N/A                                                                |
+| `user`                                                             | [OptionalNullable[models.UserResponse]](../models/userresponse.md) | :heavy_minus_sign:                                                 | N/A                                                                |

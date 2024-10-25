@@ -1,0 +1,12 @@
+# GithubCheckSuite
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `head_sha`                                                                 | *str*                                                                      | :heavy_check_mark:                                                         | N/A                                                                        |
+| `app`                                                                      | [models.GithubCheckApp](../models/githubcheckapp.md)                       | :heavy_check_mark:                                                         | N/A                                                                        |
+| `conclusion`                                                               | *OptionalNullable[str]*                                                    | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `head_branch`                                                              | *OptionalNullable[str]*                                                    | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `pull_requests`                                                            | List[[models.GithubCheckPullRequest](../models/githubcheckpullrequest.md)] | :heavy_minus_sign:                                                         | N/A                                                                        |

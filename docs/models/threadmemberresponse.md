@@ -1,0 +1,12 @@
+# ThreadMemberResponse
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `id`                                                                             | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `user_id`                                                                        | *str*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `join_timestamp`                                                                 | [date](https://docs.python.org/3/library/datetime.html#date-objects)             | :heavy_check_mark:                                                               | N/A                                                                              |
+| `flags`                                                                          | *int*                                                                            | :heavy_check_mark:                                                               | N/A                                                                              |
+| `member`                                                                         | [OptionalNullable[models.GuildMemberResponse]](../models/guildmemberresponse.md) | :heavy_minus_sign:                                                               | N/A                                                                              |

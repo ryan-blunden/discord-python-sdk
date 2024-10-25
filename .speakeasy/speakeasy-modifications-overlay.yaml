@@ -1,0 +1,27 @@
+overlay: 1.0.0
+info:
+  title: Speakeasy Modifications
+  version: 0.0.1
+  x-speakeasy-metadata:
+    type: speakeasy-modifications
+    before: ""
+    after: ""
+actions:
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]
+    remove: true
+    x-speakeasy-metadata:
+      type: remove-invalid
+      before: 'validation error: [line 3820] validate-content-type - multipart schema must be an object'
+      after: <removed>
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]
+    remove: true
+    x-speakeasy-metadata:
+      type: remove-invalid
+      before: 'validation error: [line 4858] validate-content-type - multipart schema must be an object'
+      after: <removed>
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]
+    remove: true
+    x-speakeasy-metadata:
+      type: remove-invalid
+      before: 'validation error: [line 8807] validate-content-type - multipart schema must be an object'
+      after: <removed>

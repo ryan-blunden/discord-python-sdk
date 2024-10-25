@@ -1,0 +1,10 @@
+# UpdateApplicationCommandRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `application_id`                                                                                   | *str*                                                                                              | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `command_id`                                                                                       | *str*                                                                                              | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `application_command_patch_request_partial`                                                        | [models.ApplicationCommandPatchRequestPartial](../models/applicationcommandpatchrequestpartial.md) | :heavy_check_mark:                                                                                 | N/A                                                                                                |

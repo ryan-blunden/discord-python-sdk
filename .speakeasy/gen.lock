@@ -1,0 +1,3650 @@
+lockVersion: 2.0.0
+id: 46f46a8a-9b6e-429f-9dc6-9ebdeca541c3
+management:
+  docChecksum: 4fd689199411dc56200dd98178b709fa
+  docVersion: "10"
+  speakeasyVersion: 1.421.2
+  generationVersion: 2.438.15
+  releaseVersion: 0.1.8
+  configChecksum: 22afd1487d03e34d4797f4ba0af6a5cd
+features:
+  python:
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.4
+    core: 5.6.0
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.1
+    flattening: 3.1.0
+    globalSecurity: 3.0.2
+    globalSecurityCallbacks: 1.0.0
+    globalSecurityFlattening: 1.0.0
+    globalServerURLs: 3.0.0
+    groups: 3.0.0
+    methodArguments: 1.0.2
+    methodSecurity: 3.0.0
+    nameOverrides: 3.0.0
+    nullables: 1.0.0
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.0.0
+    unions: 3.0.2
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .python-version
+  - .vscode/settings.json
+  - CONTRIBUTING.md
+  - USAGE.md
+  - docs/models/accountresponse.md
+  - docs/models/actionrow.md
+  - docs/models/actionrowcomponents.md
+  - docs/models/actions.md
+  - docs/models/activitiesattachmentresponse.md
+  - docs/models/addgroupdmuserrequest.md
+  - docs/models/addgroupdmuserrequestbody.md
+  - docs/models/addgroupdmuserresponsebody.md
+  - docs/models/addguildmemberrequest.md
+  - docs/models/addguildmemberrequestbody.md
+  - docs/models/addguildmemberrolerequest.md
+  - docs/models/addmymessagereactionrequest.md
+  - docs/models/addthreadmemberrequest.md
+  - docs/models/applicationcommandattachmentoption.md
+  - docs/models/applicationcommandattachmentoptionresponse.md
+  - docs/models/applicationcommandbooleanoption.md
+  - docs/models/applicationcommandbooleanoptionresponse.md
+  - docs/models/applicationcommandchanneloption.md
+  - docs/models/applicationcommandchanneloptionresponse.md
+  - docs/models/applicationcommandcreaterequest.md
+  - docs/models/applicationcommandcreaterequestoptions.md
+  - docs/models/applicationcommandintegeroption.md
+  - docs/models/applicationcommandintegeroptionresponse.md
+  - docs/models/applicationcommandinteractionmetadataresponse.md
+  - docs/models/applicationcommandmentionableoption.md
+  - docs/models/applicationcommandmentionableoptionresponse.md
+  - docs/models/applicationcommandnumberoption.md
+  - docs/models/applicationcommandnumberoptionresponse.md
+  - docs/models/applicationcommandoptionintegerchoice.md
+  - docs/models/applicationcommandoptionintegerchoiceresponse.md
+  - docs/models/applicationcommandoptionnumberchoice.md
+  - docs/models/applicationcommandoptionnumberchoiceresponse.md
+  - docs/models/applicationcommandoptionstringchoice.md
+  - docs/models/applicationcommandoptionstringchoiceresponse.md
+  - docs/models/applicationcommandpatchrequestpartial.md
+  - docs/models/applicationcommandpatchrequestpartialoptions.md
+  - docs/models/applicationcommandpermission.md
+  - docs/models/applicationcommandresponse.md
+  - docs/models/applicationcommandresponseoptions.md
+  - docs/models/applicationcommandroleoption.md
+  - docs/models/applicationcommandroleoptionresponse.md
+  - docs/models/applicationcommandstringoption.md
+  - docs/models/applicationcommandstringoptionresponse.md
+  - docs/models/applicationcommandsubcommandgroupoption.md
+  - docs/models/applicationcommandsubcommandgroupoptionresponse.md
+  - docs/models/applicationcommandsubcommandoption.md
+  - docs/models/applicationcommandsubcommandoptionoptions.md
+  - docs/models/applicationcommandsubcommandoptionresponse.md
+  - docs/models/applicationcommandupdaterequest.md
+  - docs/models/applicationcommandupdaterequestoptions.md
+  - docs/models/applicationcommanduseroption.md
+  - docs/models/applicationcommanduseroptionresponse.md
+  - docs/models/applicationformpartial.md
+  - docs/models/applicationincomingwebhookresponse.md
+  - docs/models/applicationintegrationtypeconfiguration.md
+  - docs/models/applicationintegrationtypeconfigurationresponse.md
+  - docs/models/applicationoauth2installparams.md
+  - docs/models/applicationoauth2installparamsresponse.md
+  - docs/models/applicationresponse.md
+  - docs/models/applicationroleconnectionsmetadataitemrequest.md
+  - docs/models/applicationroleconnectionsmetadataitemresponse.md
+  - docs/models/applicationsgetactivityinstancerequest.md
+  - docs/models/applicationuserroleconnectionresponse.md
+  - docs/models/attachmentresponse.md
+  - docs/models/auditlogentryresponse.md
+  - docs/models/auditlogobjectchangeresponse.md
+  - docs/models/automoderationrulesmodel.md
+  - docs/models/banuserfromguildrequest.md
+  - docs/models/banuserfromguildrequestbody.md
+  - docs/models/basecreatemessagecreaterequest.md
+  - docs/models/basicapplicationresponse.md
+  - docs/models/basicmessageresponse.md
+  - docs/models/basicmessageresponsecomponents.md
+  - docs/models/basicmessageresponseinteractionmetadata.md
+  - docs/models/basicmessageresponsenonce.md
+  - docs/models/basicmessageresponsestickers.md
+  - docs/models/blockmessageaction.md
+  - docs/models/blockmessageactionmetadata.md
+  - docs/models/blockmessageactionmetadataresponse.md
+  - docs/models/blockmessageactionresponse.md
+  - docs/models/botaccountpatchrequest.md
+  - docs/models/bulkbanusersfromguildrequest.md
+  - docs/models/bulkbanusersfromguildrequestbody.md
+  - docs/models/bulkbanusersresponse.md
+  - docs/models/bulkdeletemessagesrequest.md
+  - docs/models/bulkdeletemessagesrequestbody.md
+  - docs/models/bulksetapplicationcommandsrequest.md
+  - docs/models/bulksetapplicationcommandssecurity.md
+  - docs/models/bulksetguildapplicationcommandsrequest.md
+  - docs/models/bulksetguildapplicationcommandssecurity.md
+  - docs/models/bulkupdateguildchannelsrequest.md
+  - docs/models/bulkupdateguildrolesrequest.md
+  - docs/models/bulkupdateguildrolesrequestbody.md
+  - docs/models/button.md
+  - docs/models/channelfollowerresponse.md
+  - docs/models/channelfollowerwebhookresponse.md
+  - docs/models/channelpermissionoverwriterequest.md
+  - docs/models/channelpermissionoverwriteresponse.md
+  - docs/models/channelselect.md
+  - docs/models/channelselectdefaultvalue.md
+  - docs/models/channelselectdefaultvalueresponse.md
+  - docs/models/channelsmodel.md
+  - docs/models/commandpermissionresponse.md
+  - docs/models/commandpermissionsresponse.md
+  - docs/models/components.md
+  - docs/models/connectedaccountguildresponse.md
+  - docs/models/connectedaccountintegrationresponse.md
+  - docs/models/connectedaccountresponse.md
+  - docs/models/consumeentitlementrequest.md
+  - docs/models/consumeentitlementsecurity.md
+  - docs/models/createapplicationcommandrequest.md
+  - docs/models/createapplicationcommandsecurity.md
+  - docs/models/createapplicationemojirequest.md
+  - docs/models/createapplicationemojirequestbody.md
+  - docs/models/createautomoderationrulerequest.md
+  - docs/models/createautomoderationrulerequestbody.md
+  - docs/models/createautomoderationruleresponsebody.md
+  - docs/models/createchannelinviterequest.md
+  - docs/models/createchannelinviterequestbody.md
+  - docs/models/createchannelinviteresponsebody.md
+  - docs/models/createdmresponsebody.md
+  - docs/models/createdthreadresponse.md
+  - docs/models/createdthreadresponsetype.md
+  - docs/models/createentitlementrequest.md
+  - docs/models/createentitlementrequestdata.md
+  - docs/models/createforumthreadrequest.md
+  - docs/models/creategroupdminviterequest.md
+  - docs/models/createguildapplicationcommandrequest.md
+  - docs/models/createguildapplicationcommandsecurity.md
+  - docs/models/createguildchannelrequest.md
+  - docs/models/createguildchannelrequest1.md
+  - docs/models/createguildchannelrequesttype.md
+  - docs/models/createguildemojirequest.md
+  - docs/models/createguildemojirequestbody.md
+  - docs/models/createguildfromtemplaterequest.md
+  - docs/models/createguildfromtemplaterequestbody.md
+  - docs/models/createguildinviterequest.md
+  - docs/models/createguildrequestchannelitem.md
+  - docs/models/createguildrequestchannelitemtype.md
+  - docs/models/createguildrequestroleitem.md
+  - docs/models/createguildrolerequest.md
+  - docs/models/createguildrolerequestbody.md
+  - docs/models/createguildscheduledeventrequest.md
+  - docs/models/createguildscheduledeventrequestbody.md
+  - docs/models/createguildscheduledeventresponsebody.md
+  - docs/models/createguildsoundboardsoundrequest.md
+  - docs/models/createguildstickerrequest.md
+  - docs/models/createguildstickerrequestbody.md
+  - docs/models/createguildtemplaterequest.md
+  - docs/models/createguildtemplaterequestbody.md
+  - docs/models/createmessageformrequest.md
+  - docs/models/createmessagejsonrequest.md
+  - docs/models/createmessagemultipartnonce.md
+  - docs/models/createmessagemultipartrequest.md
+  - docs/models/createmessagemultipartrequestbody.md
+  - docs/models/createorupdatethreadtagrequest.md
+  - docs/models/createprivatechannelrequest.md
+  - docs/models/createstageinstancerequestbody.md
+  - docs/models/createtextthreadwithmessagerequest.md
+  - docs/models/createtextthreadwithoutmessagerequest.md
+  - docs/models/createtextthreadwithoutmessagerequesttype.md
+  - docs/models/createthreadfrommessagerequest.md
+  - docs/models/createthreadrequest.md
+  - docs/models/createthreadthreadsrequestrequestbody.md
+  - docs/models/createwebhookrequest.md
+  - docs/models/createwebhookrequestbody.md
+  - docs/models/crosspostmessagerequest.md
+  - docs/models/defaultkeywordlisttriggermetadata.md
+  - docs/models/defaultkeywordlisttriggermetadataresponse.md
+  - docs/models/defaultkeywordlistupsertrequest.md
+  - docs/models/defaultkeywordlistupsertrequestactions.md
+  - docs/models/defaultkeywordlistupsertrequestpartial.md
+  - docs/models/defaultkeywordlistupsertrequestpartialactions.md
+  - docs/models/defaultkeywordruleresponse.md
+  - docs/models/defaultreactionemojiresponse.md
+  - docs/models/defaultvalues.md
+  - docs/models/deleteallmessagereactionsbyemojirequest.md
+  - docs/models/deleteallmessagereactionsrequest.md
+  - docs/models/deleteapplicationcommandrequest.md
+  - docs/models/deleteapplicationcommandsecurity.md
+  - docs/models/deleteapplicationemojirequest.md
+  - docs/models/deleteapplicationuserroleconnectionrequest.md
+  - docs/models/deleteautomoderationrulerequest.md
+  - docs/models/deletechannelpermissionoverwriterequest.md
+  - docs/models/deletechannelrequest.md
+  - docs/models/deletechannelresponsebody.md
+  - docs/models/deleteentitlementrequest.md
+  - docs/models/deleteentitlementsecurity.md
+  - docs/models/deletegroupdmuserrequest.md
+  - docs/models/deleteguildapplicationcommandrequest.md
+  - docs/models/deleteguildapplicationcommandsecurity.md
+  - docs/models/deleteguildemojirequest.md
+  - docs/models/deleteguildintegrationrequest.md
+  - docs/models/deleteguildmemberrequest.md
+  - docs/models/deleteguildmemberrolerequest.md
+  - docs/models/deleteguildrequest.md
+  - docs/models/deleteguildrolerequest.md
+  - docs/models/deleteguildscheduledeventrequest.md
+  - docs/models/deleteguildsoundboardsoundrequest.md
+  - docs/models/deleteguildstickerrequest.md
+  - docs/models/deleteguildtemplaterequest.md
+  - docs/models/deletemessagerequest.md
+  - docs/models/deletemymessagereactionrequest.md
+  - docs/models/deleteoriginalwebhookmessagerequest.md
+  - docs/models/deleteoriginalwebhookmessagesecurity.md
+  - docs/models/deletestageinstancerequest.md
+  - docs/models/deletethreadmemberrequest.md
+  - docs/models/deleteusermessagereactionrequest.md
+  - docs/models/deletewebhookbytokenrequest.md
+  - docs/models/deletewebhookbytokensecurity.md
+  - docs/models/deletewebhookmessagerequest.md
+  - docs/models/deletewebhookmessagesecurity.md
+  - docs/models/deletewebhookrequest.md
+  - docs/models/description.md
+  - docs/models/discordintegrationresponse.md
+  - docs/models/embeddedactivityinstance.md
+  - docs/models/emoji.md
+  - docs/models/emojiresponse.md
+  - docs/models/entitlementresponse.md
+  - docs/models/entitymetadataexternal.md
+  - docs/models/entitymetadataexternalresponse.md
+  - docs/models/entitymetadatastageinstance.md
+  - docs/models/entitymetadatastageinstanceresponse.md
+  - docs/models/entitymetadatavoice.md
+  - docs/models/entitymetadatavoiceresponse.md
+  - docs/models/error.md
+  - docs/models/errordetails.md
+  - docs/models/errorresponse.md
+  - docs/models/executegithubcompatiblewebhookrequest.md
+  - docs/models/executegithubcompatiblewebhooksecurity.md
+  - docs/models/executeslackcompatiblewebhookrequest.md
+  - docs/models/executeslackcompatiblewebhooksecurity.md
+  - docs/models/externalconnectionintegrationresponse.md
+  - docs/models/externalscheduledeventcreaterequest.md
+  - docs/models/externalscheduledeventpatchrequestpartial.md
+  - docs/models/externalscheduledeventresponse.md
+  - docs/models/flagtochannelaction.md
+  - docs/models/flagtochannelactionmetadata.md
+  - docs/models/flagtochannelactionmetadataresponse.md
+  - docs/models/flagtochannelactionresponse.md
+  - docs/models/followchannelrequest.md
+  - docs/models/followchannelrequestbody.md
+  - docs/models/forumtagresponse.md
+  - docs/models/friendinviteresponse.md
+  - docs/models/gatewaybotresponse.md
+  - docs/models/gatewaybotsessionstartlimitresponse.md
+  - docs/models/gatewayresponse.md
+  - docs/models/getactiveguildthreadsrequest.md
+  - docs/models/getanswervotersrequest.md
+  - docs/models/getapplicationcommandrequest.md
+  - docs/models/getapplicationcommandsecurity.md
+  - docs/models/getapplicationemojirequest.md
+  - docs/models/getapplicationrequest.md
+  - docs/models/getapplicationroleconnectionsmetadatarequest.md
+  - docs/models/getapplicationuserroleconnectionrequest.md
+  - docs/models/getautomoderationrulerequest.md
+  - docs/models/getautomoderationruleresponsebody.md
+  - docs/models/getchannelrequest.md
+  - docs/models/getchannelresponsebody.md
+  - docs/models/getentitlementrequest.md
+  - docs/models/getentitlementsecurity.md
+  - docs/models/getentitlementsrequest.md
+  - docs/models/getentitlementssecurity.md
+  - docs/models/getgatewaysecurity.md
+  - docs/models/getguildapplicationcommandpermissionsrequest.md
+  - docs/models/getguildapplicationcommandpermissionssecurity.md
+  - docs/models/getguildapplicationcommandrequest.md
+  - docs/models/getguildapplicationcommandsecurity.md
+  - docs/models/getguildbanrequest.md
+  - docs/models/getguildemojirequest.md
+  - docs/models/getguildmemberrequest.md
+  - docs/models/getguildnewmemberwelcomerequest.md
+  - docs/models/getguildpreviewrequest.md
+  - docs/models/getguildrequest.md
+  - docs/models/getguildrolerequest.md
+  - docs/models/getguildscheduledeventrequest.md
+  - docs/models/getguildscheduledeventresponsebody.md
+  - docs/models/getguildsonboardingrequest.md
+  - docs/models/getguildsoundboardsoundrequest.md
+  - docs/models/getguildstickerrequest.md
+  - docs/models/getguildtemplaterequest.md
+  - docs/models/getguildtemplatesecurity.md
+  - docs/models/getguildvanityurlrequest.md
+  - docs/models/getguildwebhooksrequest.md
+  - docs/models/getguildwebhooksresponsebody.md
+  - docs/models/getguildwelcomescreenrequest.md
+  - docs/models/getguildwidgetpngrequest.md
+  - docs/models/getguildwidgetpngsecurity.md
+  - docs/models/getguildwidgetrequest.md
+  - docs/models/getguildwidgetsecurity.md
+  - docs/models/getguildwidgetsettingsrequest.md
+  - docs/models/getmessagerequest.md
+  - docs/models/getmyguildmemberrequest.md
+  - docs/models/getmyoauth2authorizationsecurity.md
+  - docs/models/getmyusersecurity.md
+  - docs/models/getoriginalwebhookmessagerequest.md
+  - docs/models/getoriginalwebhookmessagesecurity.md
+  - docs/models/getpublickeyssecurity.md
+  - docs/models/getselfvoicestaterequest.md
+  - docs/models/getstageinstancerequest.md
+  - docs/models/getstickerpackrequest.md
+  - docs/models/getstickerrequest.md
+  - docs/models/getstickerresponsebody.md
+  - docs/models/getthreadmemberrequest.md
+  - docs/models/getuserrequest.md
+  - docs/models/getvoicestaterequest.md
+  - docs/models/getwebhookbytokenrequest.md
+  - docs/models/getwebhookbytokenresponsebody.md
+  - docs/models/getwebhookbytokensecurity.md
+  - docs/models/getwebhookmessagerequest.md
+  - docs/models/getwebhookmessagesecurity.md
+  - docs/models/getwebhookrequest.md
+  - docs/models/getwebhookresponsebody.md
+  - docs/models/githubauthor.md
+  - docs/models/githubcheckapp.md
+  - docs/models/githubcheckpullrequest.md
+  - docs/models/githubcheckrun.md
+  - docs/models/githubcheckrunoutput.md
+  - docs/models/githubchecksuite.md
+  - docs/models/githubcomment.md
+  - docs/models/githubcommit.md
+  - docs/models/githubdiscussion.md
+  - docs/models/githubissue.md
+  - docs/models/githubrelease.md
+  - docs/models/githubrepository.md
+  - docs/models/githubreview.md
+  - docs/models/githubuser.md
+  - docs/models/githubwebhook.md
+  - docs/models/groupdminviteresponse.md
+  - docs/models/guildauditlogresponse.md
+  - docs/models/guildbanresponse.md
+  - docs/models/guildchannellocation.md
+  - docs/models/guildchannelresponse.md
+  - docs/models/guildchannelresponsetype.md
+  - docs/models/guildcreaterequest.md
+  - docs/models/guildhomesettingsresponse.md
+  - docs/models/guildincomingwebhookresponse.md
+  - docs/models/guildinviteresponse.md
+  - docs/models/guildmemberresponse.md
+  - docs/models/guildmfalevelresponse.md
+  - docs/models/guildonboardingresponse.md
+  - docs/models/guildpatchrequestpartial.md
+  - docs/models/guildpreviewresponse.md
+  - docs/models/guildproductpurchaseresponse.md
+  - docs/models/guildpruneresponse.md
+  - docs/models/guildresponse.md
+  - docs/models/guildroleresponse.md
+  - docs/models/guildroletagsresponse.md
+  - docs/models/guildscheduledevents.md
+  - docs/models/guildstickerresponse.md
+  - docs/models/guildsubscriptionintegrationresponse.md
+  - docs/models/guildtemplatechannelresponse.md
+  - docs/models/guildtemplatechannelresponsetype.md
+  - docs/models/guildtemplatechanneltags.md
+  - docs/models/guildtemplateresponse.md
+  - docs/models/guildtemplateroleresponse.md
+  - docs/models/guildtemplatesnapshotresponse.md
+  - docs/models/guildwelcomechannel.md
+  - docs/models/guildwelcomescreenchannelresponse.md
+  - docs/models/guildwelcomescreenresponse.md
+  - docs/models/guildwithcountsresponse.md
+  - docs/models/iconemojiresponse.md
+  - docs/models/includeroles.md
+  - docs/models/incomingwebhookupdaterequestpartial.md
+  - docs/models/innererrors.md
+  - docs/models/inputtext.md
+  - docs/models/integrationapplicationresponse.md
+  - docs/models/integrations.md
+  - docs/models/interactionmetadata.md
+  - docs/models/inviteapplicationresponse.md
+  - docs/models/invitechannelrecipientresponse.md
+  - docs/models/invitechannelresponse.md
+  - docs/models/inviteguildresponse.md
+  - docs/models/inviteresolverequest.md
+  - docs/models/inviteresolveresponsebody.md
+  - docs/models/inviteresolvesecurity.md
+  - docs/models/inviterevokerequest.md
+  - docs/models/inviterevokeresponsebody.md
+  - docs/models/invitestageinstanceresponse.md
+  - docs/models/jointhreadrequest.md
+  - docs/models/keywordruleresponse.md
+  - docs/models/keywordruleresponseactions.md
+  - docs/models/keywordtriggermetadata.md
+  - docs/models/keywordtriggermetadataresponse.md
+  - docs/models/keywordupsertrequest.md
+  - docs/models/keywordupsertrequestactions.md
+  - docs/models/keywordupsertrequestpartial.md
+  - docs/models/keywordupsertrequestpartialactions.md
+  - docs/models/leaveguildrequest.md
+  - docs/models/leavethreadrequest.md
+  - docs/models/listapplicationcommandsrequest.md
+  - docs/models/listapplicationcommandssecurity.md
+  - docs/models/listapplicationemojisrequest.md
+  - docs/models/listapplicationemojisresponse.md
+  - docs/models/listautomoderationrulesrequest.md
+  - docs/models/listchannelinvitesrequest.md
+  - docs/models/listchannelinvitesresponsebody.md
+  - docs/models/listchannelwebhooksrequest.md
+  - docs/models/listchannelwebhooksresponsebody.md
+  - docs/models/listguildapplicationcommandpermissionsrequest.md
+  - docs/models/listguildapplicationcommandpermissionssecurity.md
+  - docs/models/listguildapplicationcommandsrequest.md
+  - docs/models/listguildapplicationcommandssecurity.md
+  - docs/models/listguildauditlogentriesrequest.md
+  - docs/models/listguildbansrequest.md
+  - docs/models/listguildchannelsrequest.md
+  - docs/models/listguildchannelsresponsebody.md
+  - docs/models/listguildchannelssecurity.md
+  - docs/models/listguildemojisrequest.md
+  - docs/models/listguildintegrationsrequest.md
+  - docs/models/listguildintegrationsresponsebody.md
+  - docs/models/listguildinvitesrequest.md
+  - docs/models/listguildinvitesresponsebody.md
+  - docs/models/listguildmembersrequest.md
+  - docs/models/listguildrolesrequest.md
+  - docs/models/listguildscheduledeventsrequest.md
+  - docs/models/listguildscheduledeventsresponsebody.md
+  - docs/models/listguildscheduledeventusersrequest.md
+  - docs/models/listguildsoundboardsoundsrequest.md
+  - docs/models/listguildsoundboardsoundsresponse.md
+  - docs/models/listguildstickersrequest.md
+  - docs/models/listguildtemplatesrequest.md
+  - docs/models/listguildvoiceregionsrequest.md
+  - docs/models/listmessagereactionsbyemojirequest.md
+  - docs/models/listmessagesrequest.md
+  - docs/models/listmyconnectionssecurity.md
+  - docs/models/listmyguildsrequest.md
+  - docs/models/listmyguildssecurity.md
+  - docs/models/listmyprivatearchivedthreadsrequest.md
+  - docs/models/listpinnedmessagesrequest.md
+  - docs/models/listprivatearchivedthreadsrequest.md
+  - docs/models/listpublicarchivedthreadsrequest.md
+  - docs/models/liststickerpackssecurity.md
+  - docs/models/listthreadmembersrequest.md
+  - docs/models/location.md
+  - docs/models/mentionableselect.md
+  - docs/models/mentionableselectdefaultvalues.md
+  - docs/models/mentionspamruleresponse.md
+  - docs/models/mentionspamruleresponseactions.md
+  - docs/models/mentionspamtriggermetadata.md
+  - docs/models/mentionspamtriggermetadataresponse.md
+  - docs/models/mentionspamupsertrequest.md
+  - docs/models/mentionspamupsertrequestactions.md
+  - docs/models/mentionspamupsertrequestpartial.md
+  - docs/models/mentionspamupsertrequestpartialactions.md
+  - docs/models/messageactivityresponse.md
+  - docs/models/messageallowedmentionsrequest.md
+  - docs/models/messageattachmentrequest.md
+  - docs/models/messageattachmentresponse.md
+  - docs/models/messagecallresponse.md
+  - docs/models/messagecomponentactionrowresponse.md
+  - docs/models/messagecomponentbuttonresponse.md
+  - docs/models/messagecomponentchannelselectresponse.md
+  - docs/models/messagecomponentemojiresponse.md
+  - docs/models/messagecomponentinputtextresponse.md
+  - docs/models/messagecomponentinteractionmetadataresponse.md
+  - docs/models/messagecomponentmentionableselectresponse.md
+  - docs/models/messagecomponentroleselectresponse.md
+  - docs/models/messagecomponentstringselectresponse.md
+  - docs/models/messagecomponentuserselectresponse.md
+  - docs/models/messagecreaterequest.md
+  - docs/models/messagecreaterequestnonce.md
+  - docs/models/messageeditrequestpartial.md
+  - docs/models/messageembedauthorresponse.md
+  - docs/models/messageembedfieldresponse.md
+  - docs/models/messageembedfooterresponse.md
+  - docs/models/messageembedimageresponse.md
+  - docs/models/messageembedproviderresponse.md
+  - docs/models/messageembedresponse.md
+  - docs/models/messageembedvideoresponse.md
+  - docs/models/messageinteractionresponse.md
+  - docs/models/messagementionchannelresponse.md
+  - docs/models/messagereactioncountdetailsresponse.md
+  - docs/models/messagereactionemojiresponse.md
+  - docs/models/messagereactionresponse.md
+  - docs/models/messagereferencerequest.md
+  - docs/models/messagereferenceresponse.md
+  - docs/models/messageresponse.md
+  - docs/models/messageresponsecomponents.md
+  - docs/models/messagerolesubscriptiondataresponse.md
+  - docs/models/messagesnapshotresponse.md
+  - docs/models/messagestickeritemresponse.md
+  - docs/models/minimalcontentmessageresponse.md
+  - docs/models/minimalcontentmessageresponsecomponents.md
+  - docs/models/minimalcontentmessageresponsestickers.md
+  - docs/models/mlspamruleresponse.md
+  - docs/models/mlspamruleresponseactions.md
+  - docs/models/mlspamtriggermetadata.md
+  - docs/models/mlspamtriggermetadataresponse.md
+  - docs/models/mlspamupsertrequest.md
+  - docs/models/mlspamupsertrequestactions.md
+  - docs/models/mlspamupsertrequestpartial.md
+  - docs/models/mlspamupsertrequestpartialactions.md
+  - docs/models/modalsubmitinteractionmetadataresponse.md
+  - docs/models/myguildresponse.md
+  - docs/models/newmemberactionresponse.md
+  - docs/models/nonce.md
+  - docs/models/oauth2getauthorizationresponse.md
+  - docs/models/oauth2getkeys.md
+  - docs/models/oauth2key.md
+  - docs/models/onboardingpromptoptionrequest.md
+  - docs/models/onboardingpromptoptionresponse.md
+  - docs/models/onboardingpromptresponse.md
+  - docs/models/options.md
+  - docs/models/partialdiscordintegrationresponse.md
+  - docs/models/partialexternalconnectionintegrationresponse.md
+  - docs/models/partialguildsubscriptionintegrationresponse.md
+  - docs/models/pinmessagerequest.md
+  - docs/models/pollanswercreaterequest.md
+  - docs/models/pollanswerdetailsresponse.md
+  - docs/models/pollanswerresponse.md
+  - docs/models/pollcreaterequest.md
+  - docs/models/pollemoji.md
+  - docs/models/pollemojicreaterequest.md
+  - docs/models/pollexpirerequest.md
+  - docs/models/pollmedia.md
+  - docs/models/pollmediacreaterequest.md
+  - docs/models/pollmediaresponse.md
+  - docs/models/pollresponse.md
+  - docs/models/pollresultsentryresponse.md
+  - docs/models/pollresultsresponse.md
+  - docs/models/previewpruneguildrequest.md
+  - docs/models/privateapplicationresponse.md
+  - docs/models/privatechannellocation.md
+  - docs/models/privatechannelrequestpartial.md
+  - docs/models/privatechannelresponse.md
+  - docs/models/privategroupchannelresponse.md
+  - docs/models/privategroupchannelresponsetype.md
+  - docs/models/privateguildmemberresponse.md
+  - docs/models/pruneguildrequest.md
+  - docs/models/pruneguildrequestbody.md
+  - docs/models/purchasenotificationresponse.md
+  - docs/models/putguildsonboardingrequest.md
+  - docs/models/quarantineuseraction.md
+  - docs/models/quarantineuseractionmetadata.md
+  - docs/models/quarantineuseractionmetadataresponse.md
+  - docs/models/quarantineuseractionresponse.md
+  - docs/models/queryparamincluderoles.md
+  - docs/models/requestbody.md
+  - docs/models/resolvedobjectsresponse.md
+  - docs/models/resourcechannelresponse.md
+  - docs/models/responsebody.md
+  - docs/models/richembed.md
+  - docs/models/richembedauthor.md
+  - docs/models/richembedfield.md
+  - docs/models/richembedfooter.md
+  - docs/models/richembedimage.md
+  - docs/models/richembedprovider.md
+  - docs/models/richembedthumbnail.md
+  - docs/models/richembedvideo.md
+  - docs/models/roleselect.md
+  - docs/models/roleselectdefaultvalue.md
+  - docs/models/roleselectdefaultvalueresponse.md
+  - docs/models/scheduledeventresponse.md
+  - docs/models/scheduledeventuserresponse.md
+  - docs/models/searchguildmembersrequest.md
+  - docs/models/security.md
+  - docs/models/selectoption.md
+  - docs/models/selectoptionresponse.md
+  - docs/models/sendsoundboardsoundrequest.md
+  - docs/models/setchannelpermissionoverwriterequest.md
+  - docs/models/setchannelpermissionoverwriterequestbody.md
+  - docs/models/setguildapplicationcommandpermissionsrequest.md
+  - docs/models/setguildapplicationcommandpermissionsrequestbody.md
+  - docs/models/setguildapplicationcommandpermissionssecurity.md
+  - docs/models/setguildmfalevelrequest.md
+  - docs/models/setguildmfalevelrequestbody.md
+  - docs/models/settingsemojiresponse.md
+  - docs/models/skuids.md
+  - docs/models/slackwebhook.md
+  - docs/models/soundboardcreaterequest.md
+  - docs/models/soundboardpatchrequestpartial.md
+  - docs/models/soundboardsoundresponse.md
+  - docs/models/soundboardsoundsendrequest.md
+  - docs/models/spamlinkruleresponse.md
+  - docs/models/spamlinkruleresponseactions.md
+  - docs/models/spamlinktriggermetadataresponse.md
+  - docs/models/stageinstanceresponse.md
+  - docs/models/stagescheduledeventcreaterequest.md
+  - docs/models/stagescheduledeventpatchrequestpartial.md
+  - docs/models/stagescheduledeventresponse.md
+  - docs/models/standardstickerresponse.md
+  - docs/models/stickerpackcollectionresponse.md
+  - docs/models/stickerpackresponse.md
+  - docs/models/stickersmodel.md
+  - docs/models/stringselect.md
+  - docs/models/syncguildtemplaterequest.md
+  - docs/models/teammemberresponse.md
+  - docs/models/teamresponse.md
+  - docs/models/threadmemberresponse.md
+  - docs/models/threadmetadataresponse.md
+  - docs/models/threadresponse.md
+  - docs/models/threadresponsetype.md
+  - docs/models/threadsresponse.md
+  - docs/models/triggeringinteractionmetadata.md
+  - docs/models/triggertypingindicatorrequest.md
+  - docs/models/type.md
+  - docs/models/typingindicatorresponse.md
+  - docs/models/unbanuserfromguildrequest.md
+  - docs/models/unpinmessagerequest.md
+  - docs/models/updateapplicationcommandrequest.md
+  - docs/models/updateapplicationcommandsecurity.md
+  - docs/models/updateapplicationemojirequest.md
+  - docs/models/updateapplicationemojirequestbody.md
+  - docs/models/updateapplicationrequest.md
+  - docs/models/updateapplicationroleconnectionsmetadatarequest.md
+  - docs/models/updateapplicationuserroleconnectionrequest.md
+  - docs/models/updateapplicationuserroleconnectionrequestbody.md
+  - docs/models/updateautomoderationrulerequest.md
+  - docs/models/updateautomoderationrulerequestbody.md
+  - docs/models/updateautomoderationruleresponsebody.md
+  - docs/models/updatechannelrequest.md
+  - docs/models/updatechannelrequestbody.md
+  - docs/models/updatechannelresponsebody.md
+  - docs/models/updatedefaultreactionemojirequest.md
+  - docs/models/updateguildapplicationcommandrequest.md
+  - docs/models/updateguildapplicationcommandsecurity.md
+  - docs/models/updateguildchannelrequestpartial.md
+  - docs/models/updateguildchannelrequestpartialtype.md
+  - docs/models/updateguildemojirequest.md
+  - docs/models/updateguildemojirequestbody.md
+  - docs/models/updateguildmemberrequest.md
+  - docs/models/updateguildmemberrequestbody.md
+  - docs/models/updateguildonboardingrequest.md
+  - docs/models/updateguildrequest.md
+  - docs/models/updateguildrolerequest.md
+  - docs/models/updateguildrolerequestbody.md
+  - docs/models/updateguildscheduledeventrequest.md
+  - docs/models/updateguildscheduledeventrequestbody.md
+  - docs/models/updateguildscheduledeventresponsebody.md
+  - docs/models/updateguildsoundboardsoundrequest.md
+  - docs/models/updateguildstickerrequest.md
+  - docs/models/updateguildstickerrequestbody.md
+  - docs/models/updateguildtemplaterequest.md
+  - docs/models/updateguildtemplaterequestbody.md
+  - docs/models/updateguildwelcomescreenrequest.md
+  - docs/models/updateguildwidgetsettingsrequest.md
+  - docs/models/updateguildwidgetsettingsrequestbody.md
+  - docs/models/updatemessageformrequest.md
+  - docs/models/updatemessagejsonrequest.md
+  - docs/models/updatemessagemultipartrequest.md
+  - docs/models/updatemessagemultipartrequestbody.md
+  - docs/models/updatemyguildmemberrequest.md
+  - docs/models/updatemyguildmemberrequestbody.md
+  - docs/models/updateonboardingpromptrequest.md
+  - docs/models/updateoriginalwebhookmessageformrequest.md
+  - docs/models/updateoriginalwebhookmessageformsecurity.md
+  - docs/models/updateoriginalwebhookmessagejsonrequest.md
+  - docs/models/updateoriginalwebhookmessagejsonsecurity.md
+  - docs/models/updateoriginalwebhookmessagemultipartrequest.md
+  - docs/models/updateoriginalwebhookmessagemultipartrequestbody.md
+  - docs/models/updateoriginalwebhookmessagemultipartsecurity.md
+  - docs/models/updateselfvoicestaterequest.md
+  - docs/models/updateselfvoicestaterequestbody.md
+  - docs/models/updatestageinstancerequest.md
+  - docs/models/updatestageinstancerequestbody.md
+  - docs/models/updatethreadrequestpartial.md
+  - docs/models/updatethreadtagrequest.md
+  - docs/models/updatevoicestaterequest.md
+  - docs/models/updatevoicestaterequestbody.md
+  - docs/models/updatewebhookbytokenrequest.md
+  - docs/models/updatewebhookbytokenrequestbody.md
+  - docs/models/updatewebhookbytokenresponsebody.md
+  - docs/models/updatewebhookbytokensecurity.md
+  - docs/models/updatewebhookmessageformrequest.md
+  - docs/models/updatewebhookmessageformsecurity.md
+  - docs/models/updatewebhookmessagejsonrequest.md
+  - docs/models/updatewebhookmessagejsonsecurity.md
+  - docs/models/updatewebhookmessagemultipartrequest.md
+  - docs/models/updatewebhookmessagemultipartrequestbody.md
+  - docs/models/updatewebhookmessagemultipartsecurity.md
+  - docs/models/updatewebhookrequest.md
+  - docs/models/updatewebhookrequestbody.md
+  - docs/models/updatewebhookresponsebody.md
+  - docs/models/uploadapplicationattachmentrequest.md
+  - docs/models/uploadapplicationattachmentrequestbody.md
+  - docs/models/uploadapplicationattachmentsecurity.md
+  - docs/models/useravatardecorationresponse.md
+  - docs/models/usercommunicationdisabledaction.md
+  - docs/models/usercommunicationdisabledactionmetadata.md
+  - docs/models/usercommunicationdisabledactionmetadataresponse.md
+  - docs/models/usercommunicationdisabledactionresponse.md
+  - docs/models/userguildonboardingresponse.md
+  - docs/models/userpiiresponse.md
+  - docs/models/userresponse.md
+  - docs/models/userselect.md
+  - docs/models/userselectdefaultvalue.md
+  - docs/models/userselectdefaultvalueresponse.md
+  - docs/models/utils/retryconfig.md
+  - docs/models/vanityurlerrorresponse.md
+  - docs/models/vanityurlresponse.md
+  - docs/models/voiceregionresponse.md
+  - docs/models/voicescheduledeventcreaterequest.md
+  - docs/models/voicescheduledeventpatchrequestpartial.md
+  - docs/models/voicescheduledeventresponse.md
+  - docs/models/voicestateresponse.md
+  - docs/models/webhookslackembed.md
+  - docs/models/webhookslackembedfield.md
+  - docs/models/webhooksmodel.md
+  - docs/models/webhooksourcechannelresponse.md
+  - docs/models/webhooksourceguildresponse.md
+  - docs/models/welcomemessageresponse.md
+  - docs/models/welcomescreenpatchrequestpartial.md
+  - docs/models/widgetactivity.md
+  - docs/models/widgetchannel.md
+  - docs/models/widgetmember.md
+  - docs/models/widgetresponse.md
+  - docs/models/widgetsettingsresponse.md
+  - docs/sdks/applicationcommands/README.md
+  - docs/sdks/applicationemojis/README.md
+  - docs/sdks/applicationentitlements/README.md
+  - docs/sdks/applicationroleconnections/README.md
+  - docs/sdks/applications/README.md
+  - docs/sdks/auditlogs/README.md
+  - docs/sdks/automoderation/README.md
+  - docs/sdks/automoderationrules/README.md
+  - docs/sdks/bans/README.md
+  - docs/sdks/channelfollowers/README.md
+  - docs/sdks/channelinvites/README.md
+  - docs/sdks/channelmessagereactions/README.md
+  - docs/sdks/channelmessages/README.md
+  - docs/sdks/channelpermissions/README.md
+  - docs/sdks/channelpins/README.md
+  - docs/sdks/channelrecipients/README.md
+  - docs/sdks/channels/README.md
+  - docs/sdks/channelthreadmembers/README.md
+  - docs/sdks/commands/README.md
+  - docs/sdks/discord/README.md
+  - docs/sdks/discordchannelsmessages/README.md
+  - docs/sdks/discordcommands/README.md
+  - docs/sdks/discordemojis/README.md
+  - docs/sdks/discordentitlements/README.md
+  - docs/sdks/discordguilds/README.md
+  - docs/sdks/discordguildsroles/README.md
+  - docs/sdks/discordguildssoundboardsounds/README.md
+  - docs/sdks/discordguildsthreads/README.md
+  - docs/sdks/discordmessages/README.md
+  - docs/sdks/discordroles/README.md
+  - docs/sdks/discordscheduledevents/README.md
+  - docs/sdks/discordtemplates/README.md
+  - docs/sdks/discordthreads/README.md
+  - docs/sdks/discordwebhooks/README.md
+  - docs/sdks/dms/README.md
+  - docs/sdks/emojis/README.md
+  - docs/sdks/entitlements/README.md
+  - docs/sdks/gateway/README.md
+  - docs/sdks/gatewaybot/README.md
+  - docs/sdks/guildapplicationcommandpermissions/README.md
+  - docs/sdks/guildapplicationcommands/README.md
+  - docs/sdks/guildbans/README.md
+  - docs/sdks/guildchannels/README.md
+  - docs/sdks/guildemojis/README.md
+  - docs/sdks/guildintegrations/README.md
+  - docs/sdks/guildmembers/README.md
+  - docs/sdks/guildmfa/README.md
+  - docs/sdks/guildpreview/README.md
+  - docs/sdks/guilds/README.md
+  - docs/sdks/guildsoundboardsounds/README.md
+  - docs/sdks/guildstickers/README.md
+  - docs/sdks/guildtemplates/README.md
+  - docs/sdks/guildvoiceregions/README.md
+  - docs/sdks/guildvoicestates/README.md
+  - docs/sdks/guildwebhooks/README.md
+  - docs/sdks/guildwelcomescreen/README.md
+  - docs/sdks/invites/README.md
+  - docs/sdks/members/README.md
+  - docs/sdks/messagereactions/README.md
+  - docs/sdks/messages/README.md
+  - docs/sdks/myapplications/README.md
+  - docs/sdks/myguilds/README.md
+  - docs/sdks/oauth2/README.md
+  - docs/sdks/oauth2applications/README.md
+  - docs/sdks/oauth2keys/README.md
+  - docs/sdks/onboarding/README.md
+  - docs/sdks/permissions/README.md
+  - docs/sdks/pins/README.md
+  - docs/sdks/pollanswers/README.md
+  - docs/sdks/polls/README.md
+  - docs/sdks/reactions/README.md
+  - docs/sdks/roleconnection/README.md
+  - docs/sdks/roles/README.md
+  - docs/sdks/scheduledevents/README.md
+  - docs/sdks/soundboarddefaultsounds/README.md
+  - docs/sdks/soundboards/README.md
+  - docs/sdks/soundboardsounds/README.md
+  - docs/sdks/stageinstances/README.md
+  - docs/sdks/stickerpacks/README.md
+  - docs/sdks/stickers/README.md
+  - docs/sdks/templates/README.md
+  - docs/sdks/threads/README.md
+  - docs/sdks/users/README.md
+  - docs/sdks/voiceregions/README.md
+  - docs/sdks/voicestates/README.md
+  - docs/sdks/webhookmessages/README.md
+  - docs/sdks/webhooks/README.md
+  - docs/sdks/widget/README.md
+  - docs/sdks/widgets/README.md
+  - poetry.toml
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/compile.sh
+  - scripts/prepare-readme.py
+  - scripts/publish.sh
+  - src/discord_sdk/__init__.py
+  - src/discord_sdk/_hooks/__init__.py
+  - src/discord_sdk/_hooks/sdkhooks.py
+  - src/discord_sdk/_hooks/types.py
+  - src/discord_sdk/_version.py
+  - src/discord_sdk/application_commands.py
+  - src/discord_sdk/application_emojis.py
+  - src/discord_sdk/application_role_connections.py
+  - src/discord_sdk/applicationentitlements.py
+  - src/discord_sdk/applications.py
+  - src/discord_sdk/auditlogs.py
+  - src/discord_sdk/automoderation.py
+  - src/discord_sdk/automoderationrules.py
+  - src/discord_sdk/bans.py
+  - src/discord_sdk/basesdk.py
+  - src/discord_sdk/channel_invites.py
+  - src/discord_sdk/channel_thread_members.py
+  - src/discord_sdk/channelfollowers.py
+  - src/discord_sdk/channelmessagereactions.py
+  - src/discord_sdk/channelmessages.py
+  - src/discord_sdk/channelpermissions.py
+  - src/discord_sdk/channelpins.py
+  - src/discord_sdk/channelrecipients.py
+  - src/discord_sdk/channels.py
+  - src/discord_sdk/commands.py
+  - src/discord_sdk/discord_channels_messages.py
+  - src/discord_sdk/discord_commands.py
+  - src/discord_sdk/discord_emojis.py
+  - src/discord_sdk/discord_entitlements.py
+  - src/discord_sdk/discord_guilds.py
+  - src/discord_sdk/discord_guilds_roles.py
+  - src/discord_sdk/discord_guilds_soundboard_sounds.py
+  - src/discord_sdk/discord_guilds_threads.py
+  - src/discord_sdk/discord_messages.py
+  - src/discord_sdk/discord_roles.py
+  - src/discord_sdk/discord_scheduled_events.py
+  - src/discord_sdk/discord_templates.py
+  - src/discord_sdk/discord_threads.py
+  - src/discord_sdk/discord_webhooks.py
+  - src/discord_sdk/dms.py
+  - src/discord_sdk/emojis.py
+  - src/discord_sdk/entitlements.py
+  - src/discord_sdk/gateway.py
+  - src/discord_sdk/gateway_bot.py
+  - src/discord_sdk/guild_application_commands.py
+  - src/discord_sdk/guild_bans.py
+  - src/discord_sdk/guild_emojis.py
+  - src/discord_sdk/guild_integrations.py
+  - src/discord_sdk/guild_members.py
+  - src/discord_sdk/guild_voice_regions.py
+  - src/discord_sdk/guildapplicationcommandpermissions.py
+  - src/discord_sdk/guildchannels.py
+  - src/discord_sdk/guildmfa.py
+  - src/discord_sdk/guildpreview.py
+  - src/discord_sdk/guilds.py
+  - src/discord_sdk/guildsoundboardsounds.py
+  - src/discord_sdk/guildstickers.py
+  - src/discord_sdk/guildtemplates.py
+  - src/discord_sdk/guildvoicestates.py
+  - src/discord_sdk/guildwebhooks.py
+  - src/discord_sdk/guildwelcomescreen.py
+  - src/discord_sdk/httpclient.py
+  - src/discord_sdk/invites.py
+  - src/discord_sdk/members.py
+  - src/discord_sdk/messagereactions.py
+  - src/discord_sdk/messages.py
+  - src/discord_sdk/models/__init__.py
+  - src/discord_sdk/models/accountresponse.py
+  - src/discord_sdk/models/actionrow.py
+  - src/discord_sdk/models/activitiesattachmentresponse.py
+  - src/discord_sdk/models/add_group_dm_userop.py
+  - src/discord_sdk/models/add_guild_member_roleop.py
+  - src/discord_sdk/models/add_guild_memberop.py
+  - src/discord_sdk/models/add_my_message_reactionop.py
+  - src/discord_sdk/models/add_thread_memberop.py
+  - src/discord_sdk/models/applicationcommandattachmentoption.py
+  - src/discord_sdk/models/applicationcommandattachmentoptionresponse.py
+  - src/discord_sdk/models/applicationcommandbooleanoption.py
+  - src/discord_sdk/models/applicationcommandbooleanoptionresponse.py
+  - src/discord_sdk/models/applicationcommandchanneloption.py
+  - src/discord_sdk/models/applicationcommandchanneloptionresponse.py
+  - src/discord_sdk/models/applicationcommandcreaterequest.py
+  - src/discord_sdk/models/applicationcommandintegeroption.py
+  - src/discord_sdk/models/applicationcommandintegeroptionresponse.py
+  - src/discord_sdk/models/applicationcommandinteractionmetadataresponse.py
+  - src/discord_sdk/models/applicationcommandmentionableoption.py
+  - src/discord_sdk/models/applicationcommandmentionableoptionresponse.py
+  - src/discord_sdk/models/applicationcommandnumberoption.py
+  - src/discord_sdk/models/applicationcommandnumberoptionresponse.py
+  - src/discord_sdk/models/applicationcommandoptionintegerchoice.py
+  - src/discord_sdk/models/applicationcommandoptionintegerchoiceresponse.py
+  - src/discord_sdk/models/applicationcommandoptionnumberchoice.py
+  - src/discord_sdk/models/applicationcommandoptionnumberchoiceresponse.py
+  - src/discord_sdk/models/applicationcommandoptionstringchoice.py
+  - src/discord_sdk/models/applicationcommandoptionstringchoiceresponse.py
+  - src/discord_sdk/models/applicationcommandpatchrequestpartial.py
+  - src/discord_sdk/models/applicationcommandpermission.py
+  - src/discord_sdk/models/applicationcommandresponse.py
+  - src/discord_sdk/models/applicationcommandroleoption.py
+  - src/discord_sdk/models/applicationcommandroleoptionresponse.py
+  - src/discord_sdk/models/applicationcommandstringoption.py
+  - src/discord_sdk/models/applicationcommandstringoptionresponse.py
+  - src/discord_sdk/models/applicationcommandsubcommandgroupoption.py
+  - src/discord_sdk/models/applicationcommandsubcommandgroupoptionresponse.py
+  - src/discord_sdk/models/applicationcommandsubcommandoption.py
+  - src/discord_sdk/models/applicationcommandsubcommandoptionresponse.py
+  - src/discord_sdk/models/applicationcommandupdaterequest.py
+  - src/discord_sdk/models/applicationcommanduseroption.py
+  - src/discord_sdk/models/applicationcommanduseroptionresponse.py
+  - src/discord_sdk/models/applicationformpartial.py
+  - src/discord_sdk/models/applicationincomingwebhookresponse.py
+  - src/discord_sdk/models/applicationintegrationtypeconfiguration.py
+  - src/discord_sdk/models/applicationintegrationtypeconfigurationresponse.py
+  - src/discord_sdk/models/applicationoauth2installparams.py
+  - src/discord_sdk/models/applicationoauth2installparamsresponse.py
+  - src/discord_sdk/models/applicationresponse.py
+  - src/discord_sdk/models/applicationroleconnectionsmetadataitemrequest.py
+  - src/discord_sdk/models/applicationroleconnectionsmetadataitemresponse.py
+  - src/discord_sdk/models/applications_get_activity_instanceop.py
+  - src/discord_sdk/models/applicationuserroleconnectionresponse.py
+  - src/discord_sdk/models/attachmentresponse.py
+  - src/discord_sdk/models/auditlogentryresponse.py
+  - src/discord_sdk/models/auditlogobjectchangeresponse.py
+  - src/discord_sdk/models/ban_user_from_guildop.py
+  - src/discord_sdk/models/basecreatemessagecreaterequest.py
+  - src/discord_sdk/models/basicapplicationresponse.py
+  - src/discord_sdk/models/basicmessageresponse.py
+  - src/discord_sdk/models/blockmessageaction.py
+  - src/discord_sdk/models/blockmessageactionmetadata.py
+  - src/discord_sdk/models/blockmessageactionmetadataresponse.py
+  - src/discord_sdk/models/blockmessageactionresponse.py
+  - src/discord_sdk/models/botaccountpatchrequest.py
+  - src/discord_sdk/models/bulk_ban_users_from_guildop.py
+  - src/discord_sdk/models/bulk_delete_messagesop.py
+  - src/discord_sdk/models/bulk_set_application_commandsop.py
+  - src/discord_sdk/models/bulk_set_guild_application_commandsop.py
+  - src/discord_sdk/models/bulk_update_guild_channelsop.py
+  - src/discord_sdk/models/bulk_update_guild_rolesop.py
+  - src/discord_sdk/models/bulkbanusersresponse.py
+  - src/discord_sdk/models/button.py
+  - src/discord_sdk/models/channelfollowerresponse.py
+  - src/discord_sdk/models/channelfollowerwebhookresponse.py
+  - src/discord_sdk/models/channelpermissionoverwriterequest.py
+  - src/discord_sdk/models/channelpermissionoverwriteresponse.py
+  - src/discord_sdk/models/channelselect.py
+  - src/discord_sdk/models/channelselectdefaultvalue.py
+  - src/discord_sdk/models/channelselectdefaultvalueresponse.py
+  - src/discord_sdk/models/commandpermissionresponse.py
+  - src/discord_sdk/models/commandpermissionsresponse.py
+  - src/discord_sdk/models/connectedaccountguildresponse.py
+  - src/discord_sdk/models/connectedaccountintegrationresponse.py
+  - src/discord_sdk/models/connectedaccountresponse.py
+  - src/discord_sdk/models/consume_entitlementop.py
+  - src/discord_sdk/models/create_application_commandop.py
+  - src/discord_sdk/models/create_application_emojiop.py
+  - src/discord_sdk/models/create_auto_moderation_ruleop.py
+  - src/discord_sdk/models/create_channel_inviteop.py
+  - src/discord_sdk/models/create_dmop.py
+  - src/discord_sdk/models/create_entitlementop.py
+  - src/discord_sdk/models/create_guild_application_commandop.py
+  - src/discord_sdk/models/create_guild_channelop.py
+  - src/discord_sdk/models/create_guild_emojiop.py
+  - src/discord_sdk/models/create_guild_from_templateop.py
+  - src/discord_sdk/models/create_guild_roleop.py
+  - src/discord_sdk/models/create_guild_scheduled_eventop.py
+  - src/discord_sdk/models/create_guild_soundboard_soundop.py
+  - src/discord_sdk/models/create_guild_stickerop.py
+  - src/discord_sdk/models/create_guild_templateop.py
+  - src/discord_sdk/models/create_message_formop.py
+  - src/discord_sdk/models/create_message_jsonop.py
+  - src/discord_sdk/models/create_message_multipartop.py
+  - src/discord_sdk/models/create_stage_instanceop.py
+  - src/discord_sdk/models/create_thread_from_messageop.py
+  - src/discord_sdk/models/create_threadop.py
+  - src/discord_sdk/models/create_webhookop.py
+  - src/discord_sdk/models/createdthreadresponse.py
+  - src/discord_sdk/models/createentitlementrequestdata.py
+  - src/discord_sdk/models/createforumthreadrequest.py
+  - src/discord_sdk/models/creategroupdminviterequest.py
+  - src/discord_sdk/models/createguildchannelrequest.py
+  - src/discord_sdk/models/createguildinviterequest.py
+  - src/discord_sdk/models/createguildrequestchannelitem.py
+  - src/discord_sdk/models/createguildrequestroleitem.py
+  - src/discord_sdk/models/createorupdatethreadtagrequest.py
+  - src/discord_sdk/models/createprivatechannelrequest.py
+  - src/discord_sdk/models/createtextthreadwithmessagerequest.py
+  - src/discord_sdk/models/createtextthreadwithoutmessagerequest.py
+  - src/discord_sdk/models/crosspost_messageop.py
+  - src/discord_sdk/models/defaultkeywordlisttriggermetadata.py
+  - src/discord_sdk/models/defaultkeywordlisttriggermetadataresponse.py
+  - src/discord_sdk/models/defaultkeywordlistupsertrequest.py
+  - src/discord_sdk/models/defaultkeywordlistupsertrequestpartial.py
+  - src/discord_sdk/models/defaultkeywordruleresponse.py
+  - src/discord_sdk/models/defaultreactionemojiresponse.py
+  - src/discord_sdk/models/delete_all_message_reactions_by_emojiop.py
+  - src/discord_sdk/models/delete_all_message_reactionsop.py
+  - src/discord_sdk/models/delete_application_commandop.py
+  - src/discord_sdk/models/delete_application_emojiop.py
+  - src/discord_sdk/models/delete_application_user_role_connectionop.py
+  - src/discord_sdk/models/delete_auto_moderation_ruleop.py
+  - src/discord_sdk/models/delete_channel_permission_overwriteop.py
+  - src/discord_sdk/models/delete_channelop.py
+  - src/discord_sdk/models/delete_entitlementop.py
+  - src/discord_sdk/models/delete_group_dm_userop.py
+  - src/discord_sdk/models/delete_guild_application_commandop.py
+  - src/discord_sdk/models/delete_guild_emojiop.py
+  - src/discord_sdk/models/delete_guild_integrationop.py
+  - src/discord_sdk/models/delete_guild_member_roleop.py
+  - src/discord_sdk/models/delete_guild_memberop.py
+  - src/discord_sdk/models/delete_guild_roleop.py
+  - src/discord_sdk/models/delete_guild_scheduled_eventop.py
+  - src/discord_sdk/models/delete_guild_soundboard_soundop.py
+  - src/discord_sdk/models/delete_guild_stickerop.py
+  - src/discord_sdk/models/delete_guild_templateop.py
+  - src/discord_sdk/models/delete_guildop.py
+  - src/discord_sdk/models/delete_messageop.py
+  - src/discord_sdk/models/delete_my_message_reactionop.py
+  - src/discord_sdk/models/delete_original_webhook_messageop.py
+  - src/discord_sdk/models/delete_stage_instanceop.py
+  - src/discord_sdk/models/delete_thread_memberop.py
+  - src/discord_sdk/models/delete_user_message_reactionop.py
+  - src/discord_sdk/models/delete_webhook_by_tokenop.py
+  - src/discord_sdk/models/delete_webhook_messageop.py
+  - src/discord_sdk/models/delete_webhookop.py
+  - src/discord_sdk/models/discordintegrationresponse.py
+  - src/discord_sdk/models/embeddedactivityinstance.py
+  - src/discord_sdk/models/emoji.py
+  - src/discord_sdk/models/emojiresponse.py
+  - src/discord_sdk/models/entitlementresponse.py
+  - src/discord_sdk/models/entitymetadataexternal.py
+  - src/discord_sdk/models/entitymetadataexternalresponse.py
+  - src/discord_sdk/models/entitymetadatastageinstance.py
+  - src/discord_sdk/models/entitymetadatastageinstanceresponse.py
+  - src/discord_sdk/models/entitymetadatavoice.py
+  - src/discord_sdk/models/entitymetadatavoiceresponse.py
+  - src/discord_sdk/models/error.py
+  - src/discord_sdk/models/errordetails.py
+  - src/discord_sdk/models/errorresponse.py
+  - src/discord_sdk/models/execute_github_compatible_webhookop.py
+  - src/discord_sdk/models/execute_slack_compatible_webhookop.py
+  - src/discord_sdk/models/externalconnectionintegrationresponse.py
+  - src/discord_sdk/models/externalscheduledeventcreaterequest.py
+  - src/discord_sdk/models/externalscheduledeventpatchrequestpartial.py
+  - src/discord_sdk/models/externalscheduledeventresponse.py
+  - src/discord_sdk/models/flagtochannelaction.py
+  - src/discord_sdk/models/flagtochannelactionmetadata.py
+  - src/discord_sdk/models/flagtochannelactionmetadataresponse.py
+  - src/discord_sdk/models/flagtochannelactionresponse.py
+  - src/discord_sdk/models/follow_channelop.py
+  - src/discord_sdk/models/forumtagresponse.py
+  - src/discord_sdk/models/friendinviteresponse.py
+  - src/discord_sdk/models/gatewaybotresponse.py
+  - src/discord_sdk/models/gatewaybotsessionstartlimitresponse.py
+  - src/discord_sdk/models/gatewayresponse.py
+  - src/discord_sdk/models/get_active_guild_threadsop.py
+  - src/discord_sdk/models/get_answer_votersop.py
+  - src/discord_sdk/models/get_application_commandop.py
+  - src/discord_sdk/models/get_application_emojiop.py
+  - src/discord_sdk/models/get_application_role_connections_metadataop.py
+  - src/discord_sdk/models/get_application_user_role_connectionop.py
+  - src/discord_sdk/models/get_applicationop.py
+  - src/discord_sdk/models/get_auto_moderation_ruleop.py
+  - src/discord_sdk/models/get_channelop.py
+  - src/discord_sdk/models/get_entitlementop.py
+  - src/discord_sdk/models/get_entitlementsop.py
+  - src/discord_sdk/models/get_gatewayop.py
+  - src/discord_sdk/models/get_guild_application_command_permissionsop.py
+  - src/discord_sdk/models/get_guild_application_commandop.py
+  - src/discord_sdk/models/get_guild_banop.py
+  - src/discord_sdk/models/get_guild_emojiop.py
+  - src/discord_sdk/models/get_guild_memberop.py
+  - src/discord_sdk/models/get_guild_new_member_welcomeop.py
+  - src/discord_sdk/models/get_guild_previewop.py
+  - src/discord_sdk/models/get_guild_roleop.py
+  - src/discord_sdk/models/get_guild_scheduled_eventop.py
+  - src/discord_sdk/models/get_guild_soundboard_soundop.py
+  - src/discord_sdk/models/get_guild_stickerop.py
+  - src/discord_sdk/models/get_guild_templateop.py
+  - src/discord_sdk/models/get_guild_vanity_urlop.py
+  - src/discord_sdk/models/get_guild_webhooksop.py
+  - src/discord_sdk/models/get_guild_welcome_screenop.py
+  - src/discord_sdk/models/get_guild_widget_pngop.py
+  - src/discord_sdk/models/get_guild_widget_settingsop.py
+  - src/discord_sdk/models/get_guild_widgetop.py
+  - src/discord_sdk/models/get_guildop.py
+  - src/discord_sdk/models/get_guilds_onboardingop.py
+  - src/discord_sdk/models/get_messageop.py
+  - src/discord_sdk/models/get_my_guild_memberop.py
+  - src/discord_sdk/models/get_my_oauth2_authorizationop.py
+  - src/discord_sdk/models/get_my_userop.py
+  - src/discord_sdk/models/get_original_webhook_messageop.py
+  - src/discord_sdk/models/get_public_keysop.py
+  - src/discord_sdk/models/get_self_voice_stateop.py
+  - src/discord_sdk/models/get_stage_instanceop.py
+  - src/discord_sdk/models/get_sticker_packop.py
+  - src/discord_sdk/models/get_stickerop.py
+  - src/discord_sdk/models/get_thread_memberop.py
+  - src/discord_sdk/models/get_userop.py
+  - src/discord_sdk/models/get_voice_stateop.py
+  - src/discord_sdk/models/get_webhook_by_tokenop.py
+  - src/discord_sdk/models/get_webhook_messageop.py
+  - src/discord_sdk/models/get_webhookop.py
+  - src/discord_sdk/models/githubauthor.py
+  - src/discord_sdk/models/githubcheckapp.py
+  - src/discord_sdk/models/githubcheckpullrequest.py
+  - src/discord_sdk/models/githubcheckrun.py
+  - src/discord_sdk/models/githubcheckrunoutput.py
+  - src/discord_sdk/models/githubchecksuite.py
+  - src/discord_sdk/models/githubcomment.py
+  - src/discord_sdk/models/githubcommit.py
+  - src/discord_sdk/models/githubdiscussion.py
+  - src/discord_sdk/models/githubissue.py
+  - src/discord_sdk/models/githubrelease.py
+  - src/discord_sdk/models/githubrepository.py
+  - src/discord_sdk/models/githubreview.py
+  - src/discord_sdk/models/githubuser.py
+  - src/discord_sdk/models/githubwebhook.py
+  - src/discord_sdk/models/groupdminviteresponse.py
+  - src/discord_sdk/models/guildauditlogresponse.py
+  - src/discord_sdk/models/guildbanresponse.py
+  - src/discord_sdk/models/guildchannellocation.py
+  - src/discord_sdk/models/guildchannelresponse.py
+  - src/discord_sdk/models/guildcreaterequest.py
+  - src/discord_sdk/models/guildhomesettingsresponse.py
+  - src/discord_sdk/models/guildincomingwebhookresponse.py
+  - src/discord_sdk/models/guildinviteresponse.py
+  - src/discord_sdk/models/guildmemberresponse.py
+  - src/discord_sdk/models/guildmfalevelresponse.py
+  - src/discord_sdk/models/guildonboardingresponse.py
+  - src/discord_sdk/models/guildpatchrequestpartial.py
+  - src/discord_sdk/models/guildpreviewresponse.py
+  - src/discord_sdk/models/guildproductpurchaseresponse.py
+  - src/discord_sdk/models/guildpruneresponse.py
+  - src/discord_sdk/models/guildresponse.py
+  - src/discord_sdk/models/guildroleresponse.py
+  - src/discord_sdk/models/guildroletagsresponse.py
+  - src/discord_sdk/models/guildstickerresponse.py
+  - src/discord_sdk/models/guildsubscriptionintegrationresponse.py
+  - src/discord_sdk/models/guildtemplatechannelresponse.py
+  - src/discord_sdk/models/guildtemplatechanneltags.py
+  - src/discord_sdk/models/guildtemplateresponse.py
+  - src/discord_sdk/models/guildtemplateroleresponse.py
+  - src/discord_sdk/models/guildtemplatesnapshotresponse.py
+  - src/discord_sdk/models/guildwelcomechannel.py
+  - src/discord_sdk/models/guildwelcomescreenchannelresponse.py
+  - src/discord_sdk/models/guildwelcomescreenresponse.py
+  - src/discord_sdk/models/guildwithcountsresponse.py
+  - src/discord_sdk/models/iconemojiresponse.py
+  - src/discord_sdk/models/incomingwebhookupdaterequestpartial.py
+  - src/discord_sdk/models/innererrors.py
+  - src/discord_sdk/models/inputtext.py
+  - src/discord_sdk/models/integrationapplicationresponse.py
+  - src/discord_sdk/models/invite_resolveop.py
+  - src/discord_sdk/models/invite_revokeop.py
+  - src/discord_sdk/models/inviteapplicationresponse.py
+  - src/discord_sdk/models/invitechannelrecipientresponse.py
+  - src/discord_sdk/models/invitechannelresponse.py
+  - src/discord_sdk/models/inviteguildresponse.py
+  - src/discord_sdk/models/invitestageinstanceresponse.py
+  - src/discord_sdk/models/join_threadop.py
+  - src/discord_sdk/models/keywordruleresponse.py
+  - src/discord_sdk/models/keywordtriggermetadata.py
+  - src/discord_sdk/models/keywordtriggermetadataresponse.py
+  - src/discord_sdk/models/keywordupsertrequest.py
+  - src/discord_sdk/models/keywordupsertrequestpartial.py
+  - src/discord_sdk/models/leave_guildop.py
+  - src/discord_sdk/models/leave_threadop.py
+  - src/discord_sdk/models/list_application_commandsop.py
+  - src/discord_sdk/models/list_application_emojisop.py
+  - src/discord_sdk/models/list_auto_moderation_rulesop.py
+  - src/discord_sdk/models/list_channel_invitesop.py
+  - src/discord_sdk/models/list_channel_webhooksop.py
+  - src/discord_sdk/models/list_guild_application_command_permissionsop.py
+  - src/discord_sdk/models/list_guild_application_commandsop.py
+  - src/discord_sdk/models/list_guild_audit_log_entriesop.py
+  - src/discord_sdk/models/list_guild_bansop.py
+  - src/discord_sdk/models/list_guild_channelsop.py
+  - src/discord_sdk/models/list_guild_emojisop.py
+  - src/discord_sdk/models/list_guild_integrationsop.py
+  - src/discord_sdk/models/list_guild_invitesop.py
+  - src/discord_sdk/models/list_guild_membersop.py
+  - src/discord_sdk/models/list_guild_rolesop.py
+  - src/discord_sdk/models/list_guild_scheduled_event_usersop.py
+  - src/discord_sdk/models/list_guild_scheduled_eventsop.py
+  - src/discord_sdk/models/list_guild_soundboard_soundsop.py
+  - src/discord_sdk/models/list_guild_stickersop.py
+  - src/discord_sdk/models/list_guild_templatesop.py
+  - src/discord_sdk/models/list_guild_voice_regionsop.py
+  - src/discord_sdk/models/list_message_reactions_by_emojiop.py
+  - src/discord_sdk/models/list_messagesop.py
+  - src/discord_sdk/models/list_my_connectionsop.py
+  - src/discord_sdk/models/list_my_guildsop.py
+  - src/discord_sdk/models/list_my_private_archived_threadsop.py
+  - src/discord_sdk/models/list_pinned_messagesop.py
+  - src/discord_sdk/models/list_private_archived_threadsop.py
+  - src/discord_sdk/models/list_public_archived_threadsop.py
+  - src/discord_sdk/models/list_sticker_packsop.py
+  - src/discord_sdk/models/list_thread_membersop.py
+  - src/discord_sdk/models/listapplicationemojisresponse.py
+  - src/discord_sdk/models/listguildsoundboardsoundsresponse.py
+  - src/discord_sdk/models/mentionableselect.py
+  - src/discord_sdk/models/mentionspamruleresponse.py
+  - src/discord_sdk/models/mentionspamtriggermetadata.py
+  - src/discord_sdk/models/mentionspamtriggermetadataresponse.py
+  - src/discord_sdk/models/mentionspamupsertrequest.py
+  - src/discord_sdk/models/mentionspamupsertrequestpartial.py
+  - src/discord_sdk/models/messageactivityresponse.py
+  - src/discord_sdk/models/messageallowedmentionsrequest.py
+  - src/discord_sdk/models/messageattachmentrequest.py
+  - src/discord_sdk/models/messageattachmentresponse.py
+  - src/discord_sdk/models/messagecallresponse.py
+  - src/discord_sdk/models/messagecomponentactionrowresponse.py
+  - src/discord_sdk/models/messagecomponentbuttonresponse.py
+  - src/discord_sdk/models/messagecomponentchannelselectresponse.py
+  - src/discord_sdk/models/messagecomponentemojiresponse.py
+  - src/discord_sdk/models/messagecomponentinputtextresponse.py
+  - src/discord_sdk/models/messagecomponentinteractionmetadataresponse.py
+  - src/discord_sdk/models/messagecomponentmentionableselectresponse.py
+  - src/discord_sdk/models/messagecomponentroleselectresponse.py
+  - src/discord_sdk/models/messagecomponentstringselectresponse.py
+  - src/discord_sdk/models/messagecomponentuserselectresponse.py
+  - src/discord_sdk/models/messagecreaterequest.py
+  - src/discord_sdk/models/messageeditrequestpartial.py
+  - src/discord_sdk/models/messageembedauthorresponse.py
+  - src/discord_sdk/models/messageembedfieldresponse.py
+  - src/discord_sdk/models/messageembedfooterresponse.py
+  - src/discord_sdk/models/messageembedimageresponse.py
+  - src/discord_sdk/models/messageembedproviderresponse.py
+  - src/discord_sdk/models/messageembedresponse.py
+  - src/discord_sdk/models/messageembedvideoresponse.py
+  - src/discord_sdk/models/messageinteractionresponse.py
+  - src/discord_sdk/models/messagementionchannelresponse.py
+  - src/discord_sdk/models/messagereactioncountdetailsresponse.py
+  - src/discord_sdk/models/messagereactionemojiresponse.py
+  - src/discord_sdk/models/messagereactionresponse.py
+  - src/discord_sdk/models/messagereferencerequest.py
+  - src/discord_sdk/models/messagereferenceresponse.py
+  - src/discord_sdk/models/messageresponse.py
+  - src/discord_sdk/models/messagerolesubscriptiondataresponse.py
+  - src/discord_sdk/models/messagesnapshotresponse.py
+  - src/discord_sdk/models/messagestickeritemresponse.py
+  - src/discord_sdk/models/minimalcontentmessageresponse.py
+  - src/discord_sdk/models/mlspamruleresponse.py
+  - src/discord_sdk/models/mlspamtriggermetadata.py
+  - src/discord_sdk/models/mlspamtriggermetadataresponse.py
+  - src/discord_sdk/models/mlspamupsertrequest.py
+  - src/discord_sdk/models/mlspamupsertrequestpartial.py
+  - src/discord_sdk/models/modalsubmitinteractionmetadataresponse.py
+  - src/discord_sdk/models/myguildresponse.py
+  - src/discord_sdk/models/newmemberactionresponse.py
+  - src/discord_sdk/models/oauth2getauthorizationresponse.py
+  - src/discord_sdk/models/oauth2getkeys.py
+  - src/discord_sdk/models/oauth2key.py
+  - src/discord_sdk/models/onboardingpromptoptionrequest.py
+  - src/discord_sdk/models/onboardingpromptoptionresponse.py
+  - src/discord_sdk/models/onboardingpromptresponse.py
+  - src/discord_sdk/models/partialdiscordintegrationresponse.py
+  - src/discord_sdk/models/partialexternalconnectionintegrationresponse.py
+  - src/discord_sdk/models/partialguildsubscriptionintegrationresponse.py
+  - src/discord_sdk/models/pin_messageop.py
+  - src/discord_sdk/models/poll_expireop.py
+  - src/discord_sdk/models/pollanswercreaterequest.py
+  - src/discord_sdk/models/pollanswerdetailsresponse.py
+  - src/discord_sdk/models/pollanswerresponse.py
+  - src/discord_sdk/models/pollcreaterequest.py
+  - src/discord_sdk/models/pollemoji.py
+  - src/discord_sdk/models/pollemojicreaterequest.py
+  - src/discord_sdk/models/pollmedia.py
+  - src/discord_sdk/models/pollmediacreaterequest.py
+  - src/discord_sdk/models/pollmediaresponse.py
+  - src/discord_sdk/models/pollresponse.py
+  - src/discord_sdk/models/pollresultsentryresponse.py
+  - src/discord_sdk/models/pollresultsresponse.py
+  - src/discord_sdk/models/preview_prune_guildop.py
+  - src/discord_sdk/models/privateapplicationresponse.py
+  - src/discord_sdk/models/privatechannellocation.py
+  - src/discord_sdk/models/privatechannelrequestpartial.py
+  - src/discord_sdk/models/privatechannelresponse.py
+  - src/discord_sdk/models/privategroupchannelresponse.py
+  - src/discord_sdk/models/privateguildmemberresponse.py
+  - src/discord_sdk/models/prune_guildop.py
+  - src/discord_sdk/models/purchasenotificationresponse.py
+  - src/discord_sdk/models/put_guilds_onboardingop.py
+  - src/discord_sdk/models/quarantineuseraction.py
+  - src/discord_sdk/models/quarantineuseractionmetadata.py
+  - src/discord_sdk/models/quarantineuseractionmetadataresponse.py
+  - src/discord_sdk/models/quarantineuseractionresponse.py
+  - src/discord_sdk/models/resolvedobjectsresponse.py
+  - src/discord_sdk/models/resourcechannelresponse.py
+  - src/discord_sdk/models/richembed.py
+  - src/discord_sdk/models/richembedauthor.py
+  - src/discord_sdk/models/richembedfield.py
+  - src/discord_sdk/models/richembedfooter.py
+  - src/discord_sdk/models/richembedimage.py
+  - src/discord_sdk/models/richembedprovider.py
+  - src/discord_sdk/models/richembedthumbnail.py
+  - src/discord_sdk/models/richembedvideo.py
+  - src/discord_sdk/models/roleselect.py
+  - src/discord_sdk/models/roleselectdefaultvalue.py
+  - src/discord_sdk/models/roleselectdefaultvalueresponse.py
+  - src/discord_sdk/models/scheduledeventresponse.py
+  - src/discord_sdk/models/scheduledeventuserresponse.py
+  - src/discord_sdk/models/sdkerror.py
+  - src/discord_sdk/models/search_guild_membersop.py
+  - src/discord_sdk/models/security.py
+  - src/discord_sdk/models/selectoption.py
+  - src/discord_sdk/models/selectoptionresponse.py
+  - src/discord_sdk/models/send_soundboard_soundop.py
+  - src/discord_sdk/models/set_channel_permission_overwriteop.py
+  - src/discord_sdk/models/set_guild_application_command_permissionsop.py
+  - src/discord_sdk/models/set_guild_mfa_levelop.py
+  - src/discord_sdk/models/settingsemojiresponse.py
+  - src/discord_sdk/models/slackwebhook.py
+  - src/discord_sdk/models/soundboardcreaterequest.py
+  - src/discord_sdk/models/soundboardpatchrequestpartial.py
+  - src/discord_sdk/models/soundboardsoundresponse.py
+  - src/discord_sdk/models/soundboardsoundsendrequest.py
+  - src/discord_sdk/models/spamlinkruleresponse.py
+  - src/discord_sdk/models/spamlinktriggermetadataresponse.py
+  - src/discord_sdk/models/stageinstanceresponse.py
+  - src/discord_sdk/models/stagescheduledeventcreaterequest.py
+  - src/discord_sdk/models/stagescheduledeventpatchrequestpartial.py
+  - src/discord_sdk/models/stagescheduledeventresponse.py
+  - src/discord_sdk/models/standardstickerresponse.py
+  - src/discord_sdk/models/stickerpackcollectionresponse.py
+  - src/discord_sdk/models/stickerpackresponse.py
+  - src/discord_sdk/models/stringselect.py
+  - src/discord_sdk/models/sync_guild_templateop.py
+  - src/discord_sdk/models/teammemberresponse.py
+  - src/discord_sdk/models/teamresponse.py
+  - src/discord_sdk/models/threadmemberresponse.py
+  - src/discord_sdk/models/threadmetadataresponse.py
+  - src/discord_sdk/models/threadresponse.py
+  - src/discord_sdk/models/threadsresponse.py
+  - src/discord_sdk/models/trigger_typing_indicatorop.py
+  - src/discord_sdk/models/typingindicatorresponse.py
+  - src/discord_sdk/models/unban_user_from_guildop.py
+  - src/discord_sdk/models/unpin_messageop.py
+  - src/discord_sdk/models/update_application_commandop.py
+  - src/discord_sdk/models/update_application_emojiop.py
+  - src/discord_sdk/models/update_application_role_connections_metadataop.py
+  - src/discord_sdk/models/update_application_user_role_connectionop.py
+  - src/discord_sdk/models/update_applicationop.py
+  - src/discord_sdk/models/update_auto_moderation_ruleop.py
+  - src/discord_sdk/models/update_channelop.py
+  - src/discord_sdk/models/update_guild_application_commandop.py
+  - src/discord_sdk/models/update_guild_emojiop.py
+  - src/discord_sdk/models/update_guild_memberop.py
+  - src/discord_sdk/models/update_guild_roleop.py
+  - src/discord_sdk/models/update_guild_scheduled_eventop.py
+  - src/discord_sdk/models/update_guild_soundboard_soundop.py
+  - src/discord_sdk/models/update_guild_stickerop.py
+  - src/discord_sdk/models/update_guild_templateop.py
+  - src/discord_sdk/models/update_guild_welcome_screenop.py
+  - src/discord_sdk/models/update_guild_widget_settingsop.py
+  - src/discord_sdk/models/update_guildop.py
+  - src/discord_sdk/models/update_message_formop.py
+  - src/discord_sdk/models/update_message_jsonop.py
+  - src/discord_sdk/models/update_message_multipartop.py
+  - src/discord_sdk/models/update_my_guild_memberop.py
+  - src/discord_sdk/models/update_original_webhook_message_formop.py
+  - src/discord_sdk/models/update_original_webhook_message_jsonop.py
+  - src/discord_sdk/models/update_original_webhook_message_multipartop.py
+  - src/discord_sdk/models/update_self_voice_stateop.py
+  - src/discord_sdk/models/update_stage_instanceop.py
+  - src/discord_sdk/models/update_voice_stateop.py
+  - src/discord_sdk/models/update_webhook_by_tokenop.py
+  - src/discord_sdk/models/update_webhook_message_formop.py
+  - src/discord_sdk/models/update_webhook_message_jsonop.py
+  - src/discord_sdk/models/update_webhook_message_multipartop.py
+  - src/discord_sdk/models/update_webhookop.py
+  - src/discord_sdk/models/updatedefaultreactionemojirequest.py
+  - src/discord_sdk/models/updateguildchannelrequestpartial.py
+  - src/discord_sdk/models/updateguildonboardingrequest.py
+  - src/discord_sdk/models/updateonboardingpromptrequest.py
+  - src/discord_sdk/models/updatethreadrequestpartial.py
+  - src/discord_sdk/models/updatethreadtagrequest.py
+  - src/discord_sdk/models/upload_application_attachmentop.py
+  - src/discord_sdk/models/useravatardecorationresponse.py
+  - src/discord_sdk/models/usercommunicationdisabledaction.py
+  - src/discord_sdk/models/usercommunicationdisabledactionmetadata.py
+  - src/discord_sdk/models/usercommunicationdisabledactionmetadataresponse.py
+  - src/discord_sdk/models/usercommunicationdisabledactionresponse.py
+  - src/discord_sdk/models/userguildonboardingresponse.py
+  - src/discord_sdk/models/userpiiresponse.py
+  - src/discord_sdk/models/userresponse.py
+  - src/discord_sdk/models/userselect.py
+  - src/discord_sdk/models/userselectdefaultvalue.py
+  - src/discord_sdk/models/userselectdefaultvalueresponse.py
+  - src/discord_sdk/models/vanityurlerrorresponse.py
+  - src/discord_sdk/models/vanityurlresponse.py
+  - src/discord_sdk/models/voiceregionresponse.py
+  - src/discord_sdk/models/voicescheduledeventcreaterequest.py
+  - src/discord_sdk/models/voicescheduledeventpatchrequestpartial.py
+  - src/discord_sdk/models/voicescheduledeventresponse.py
+  - src/discord_sdk/models/voicestateresponse.py
+  - src/discord_sdk/models/webhookslackembed.py
+  - src/discord_sdk/models/webhookslackembedfield.py
+  - src/discord_sdk/models/webhooksourcechannelresponse.py
+  - src/discord_sdk/models/webhooksourceguildresponse.py
+  - src/discord_sdk/models/welcomemessageresponse.py
+  - src/discord_sdk/models/welcomescreenpatchrequestpartial.py
+  - src/discord_sdk/models/widgetactivity.py
+  - src/discord_sdk/models/widgetchannel.py
+  - src/discord_sdk/models/widgetmember.py
+  - src/discord_sdk/models/widgetresponse.py
+  - src/discord_sdk/models/widgetsettingsresponse.py
+  - src/discord_sdk/my_applications.py
+  - src/discord_sdk/my_guilds.py
+  - src/discord_sdk/oauth2.py
+  - src/discord_sdk/oauth2_keys.py
+  - src/discord_sdk/oauth2applications.py
+  - src/discord_sdk/onboarding.py
+  - src/discord_sdk/permissions.py
+  - src/discord_sdk/pins.py
+  - src/discord_sdk/poll_answers.py
+  - src/discord_sdk/polls.py
+  - src/discord_sdk/py.typed
+  - src/discord_sdk/reactions.py
+  - src/discord_sdk/role_connection.py
+  - src/discord_sdk/roles.py
+  - src/discord_sdk/scheduledevents.py
+  - src/discord_sdk/sdk.py
+  - src/discord_sdk/sdkconfiguration.py
+  - src/discord_sdk/soundboard_sounds.py
+  - src/discord_sdk/soundboarddefaultsounds.py
+  - src/discord_sdk/soundboards.py
+  - src/discord_sdk/stageinstances.py
+  - src/discord_sdk/stickerpacks.py
+  - src/discord_sdk/stickers.py
+  - src/discord_sdk/templates.py
+  - src/discord_sdk/threads.py
+  - src/discord_sdk/types/__init__.py
+  - src/discord_sdk/types/basemodel.py
+  - src/discord_sdk/users.py
+  - src/discord_sdk/utils/__init__.py
+  - src/discord_sdk/utils/annotations.py
+  - src/discord_sdk/utils/enums.py
+  - src/discord_sdk/utils/eventstreaming.py
+  - src/discord_sdk/utils/forms.py
+  - src/discord_sdk/utils/headers.py
+  - src/discord_sdk/utils/logger.py
+  - src/discord_sdk/utils/metadata.py
+  - src/discord_sdk/utils/queryparams.py
+  - src/discord_sdk/utils/requestbodies.py
+  - src/discord_sdk/utils/retries.py
+  - src/discord_sdk/utils/security.py
+  - src/discord_sdk/utils/serializers.py
+  - src/discord_sdk/utils/url.py
+  - src/discord_sdk/utils/values.py
+  - src/discord_sdk/voice_states.py
+  - src/discord_sdk/voiceregions.py
+  - src/discord_sdk/webhook_messages.py
+  - src/discord_sdk/webhooks.py
+  - src/discord_sdk/widget.py
+  - src/discord_sdk/widgets.py
+examples:
+  get_my_oauth2_application:
+    speakeasy-default-get-my-oauth2-application:
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "description": "consequently charter platter who grandiose amount really yet obnoxiously", "verify_key": "<value>", "flags": 99710, "redirect_uris": ["https://indolent-consistency.org", "https://oddball-backburn.info/", "https://impressive-wriggler.name"], "owner": {"id": "<value>", "username": "Ashtyn.Gislason25", "discriminator": "<value>", "public_flags": 916715, "flags": 978889}, "approximate_user_install_count": 333986}
+        4XX:
+          application/json: {"code": 54094, "message": "<value>"}
+  list_my_connections:
+    speakeasy-default-list-my-connections:
+      responses:
+        "200":
+          application/json: []
+        4XX:
+          application/json: {"code": 937092, "message": "<value>"}
+  create_dm:
+    speakeasy-default-create-dm:
+      responses:
+        "200":
+          application/json: {"id": "<value>", "type": 1, "flags": 623302, "recipients": [{"id": "<value>", "username": "Krista_Blick", "discriminator": "<value>", "public_flags": 833011, "flags": 124046}]}
+        4XX:
+          application/json: {"code": 926881, "message": "<value>"}
+  list_my_guilds:
+    speakeasy-default-list-my-guilds:
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>", "owner": true, "permissions": "<value>", "features": ["<value>"]}, {"id": "<value>", "name": "<value>", "owner": true, "permissions": "<value>", "features": []}, {"id": "<value>", "name": "<value>", "owner": false, "permissions": "<value>", "features": []}]
+        4XX:
+          application/json: {"code": 270841, "message": "<value>"}
+  get_my_application:
+    speakeasy-default-get-my-application:
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "description": "irritably outrank knowledgeably junior um after traffic", "verify_key": "<value>", "flags": 696044, "redirect_uris": ["https://stingy-story.biz", "https://another-plumber.net/"], "owner": {"id": "<value>", "username": "Howell_Feeney", "discriminator": "<value>", "public_flags": 761300, "flags": 371088}, "approximate_user_install_count": 610595}
+        4XX:
+          application/json: {"code": 664825, "message": "<value>"}
+  update_my_application:
+    speakeasy-default-update-my-application:
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "description": "team why plait concerning over hmph throughout readily", "verify_key": "<value>", "flags": 616072, "redirect_uris": ["https://numb-discourse.net", "https://honored-publication.name/", "https://flawless-basket.biz"], "owner": {"id": "<value>", "username": "Mattie.Connelly", "discriminator": "<value>", "public_flags": 456105, "flags": 657063}, "approximate_user_install_count": 478069}
+        4XX:
+          application/json: {"code": 584340, "message": "<value>"}
+  get_bot_gateway:
+    speakeasy-default-get-bot-gateway:
+      responses:
+        "200":
+          application/json: {"url": "https://devoted-legend.com", "session_start_limit": {"max_concurrency": 244035, "remaining": 192879, "reset_after": 92130, "total": 68267}, "shards": 291576}
+        4XX:
+          application/json: {"code": 641451, "message": "<value>"}
+  get_public_keys:
+    speakeasy-default-get-public-keys:
+      responses:
+        "200":
+          application/json: {"keys": [{"kty": "<value>", "use": "<value>", "kid": "<id>", "n": "<value>", "e": "<value>", "alg": "<value>"}, {"kty": "<value>", "use": "<value>", "kid": "<id>", "n": "<value>", "e": "<value>", "alg": "<value>"}, {"kty": "<value>", "use": "<value>", "kid": "<id>", "n": "<value>", "e": "<value>", "alg": "<value>"}]}
+        4XX:
+          application/json: {"code": 647983, "message": "<value>"}
+  get_my_oauth2_authorization:
+    speakeasy-default-get-my-oauth2-authorization:
+      responses:
+        "200":
+          application/json: {"application": {"id": "<value>", "name": "<value>", "description": "on hunt paralyse outside sheathe", "verify_key": "<value>", "flags": 708057}, "expires": "2024-08-18T22:59:01.044Z", "scopes": ["<value>", "<value>", "<value>"]}
+        4XX:
+          application/json: {"code": 804676, "message": "<value>"}
+  list_voice_regions:
+    speakeasy-default-list-voice-regions:
+      responses:
+        "200":
+          application/json: [{"id": "<id>", "name": "<value>", "custom": true, "deprecated": true, "optimal": false}]
+        4XX:
+          application/json: {"code": 315225, "message": "<value>"}
+  get_my_user:
+    speakeasy-default-get-my-user:
+      responses:
+        "200":
+          application/json: {"id": "<value>", "username": "Dallas_Runolfsson", "discriminator": "<value>", "public_flags": 734485, "flags": 206110, "mfa_enabled": false}
+        4XX:
+          application/json: {"code": 264277, "message": "<value>"}
+  update_my_user:
+    speakeasy-default-update-my-user:
+      requestBody:
+        application/json: {"username": "Merritt82"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "username": "Jamar_Rau12", "discriminator": "<value>", "public_flags": 460122, "flags": 74072, "mfa_enabled": true}
+        4XX:
+          application/json: {"code": 506488, "message": "<value>"}
+  get_soundboard_default_sounds:
+    speakeasy-default-get-soundboard-default-sounds:
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "sound_id": "<value>", "volume": "3311.97", "available": false}, {"name": "<value>", "sound_id": "<value>", "volume": "8487.97", "available": false}]
+        4XX:
+          application/json: {"code": 48643, "message": "<value>"}
+  create_stage_instance:
+    speakeasy-default-create-stage-instance:
+      requestBody:
+        application/json: {"topic": "<value>", "channel_id": "<value>"}
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "channel_id": "<value>", "topic": "<value>", "id": "<value>"}
+        4XX:
+          application/json: {"code": 525271, "message": "<value>"}
+  list_sticker_packs:
+    speakeasy-default-list-sticker-packs:
+      responses:
+        "200":
+          application/json: {"sticker_packs": [{"id": "<value>", "sku_id": "<value>", "name": "<value>", "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "pack_id": "<value>", "sort_value": 753722}]}, {"id": "<value>", "sku_id": "<value>", "name": "<value>", "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "pack_id": "<value>", "sort_value": 167208}]}]}
+        4XX:
+          application/json: {"code": 392712, "message": "<value>"}
+  get_gateway:
+    speakeasy-default-get-gateway:
+      responses:
+        "200":
+          application/json: {"url": "https://oily-traditionalism.biz"}
+        4XX:
+          application/json: {"code": 745804, "message": "<value>"}
+  create_guild:
+    speakeasy-default-create-guild:
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "name": "<value>", "features": ["<value>"], "owner_id": "<value>", "region": "<value>", "system_channel_flags": 839105, "widget_enabled": false, "roles": [{"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 453692, "color": 167379, "hoist": true, "managed": false, "mentionable": false}, {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 618366, "color": 948528, "hoist": true, "managed": true, "mentionable": false}], "premium_subscription_count": 109486, "premium_progress_bar_enabled": false, "nsfw": true, "emojis": [{"id": "<value>", "name": "<value>", "roles": ["<value>"], "require_colons": false, "managed": false, "animated": true, "available": false}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>"], "require_colons": true, "managed": false, "animated": true, "available": false}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>", "<value>"], "require_colons": true, "managed": false, "animated": true, "available": true}], "stickers": []}
+        4XX:
+          application/json: {"code": 667756, "message": "<value>"}
+  list_my_private_archived_threads:
+    speakeasy-default-list-my-private-archived-threads:
+      parameters:
+        path:
+          channel_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"threads": [{"id": "<value>", "type": 12, "flags": 324192, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 344446, "member_count": 624915, "total_message_sent": 509173}, {"id": "<value>", "type": 12, "flags": 357936, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 150614, "member_count": 18231, "total_message_sent": 503841}, {"id": "<value>", "type": 10, "flags": 654983, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 505307, "member_count": 757922, "total_message_sent": 593728}], "members": [{"id": "<value>", "user_id": "<value>", "join_timestamp": "2023-09-04T05:03:53.778Z", "flags": 428668}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2024-11-24T00:52:01.157Z", "flags": 373411}]}
+        4XX:
+          application/json: {"code": 714422, "message": "<value>"}
+  list_guild_application_command_permissions:
+    speakeasy-default-list-guild-application-command-permissions:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: []
+        4XX:
+          application/json: {"code": 621591, "message": "<value>"}
+  get_guild_application_command_permissions:
+    speakeasy-default-get-guild-application-command-permissions:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "guild_id": "<value>", "permissions": []}
+        4XX:
+          application/json: {"code": 452253, "message": "<value>"}
+  set_guild_application_command_permissions:
+    speakeasy-default-set-guild-application-command-permissions:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "guild_id": "<value>", "permissions": [{"id": "<value>", "permission": false}, {"id": "<value>", "permission": true}, {"id": "<value>", "permission": false}]}
+        4XX:
+          application/json: {"code": 386872, "message": "<value>"}
+  add_my_message_reaction:
+    speakeasy-default-add-my-message-reaction:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          emoji_name: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 124488, "message": "<value>"}
+  delete_my_message_reaction:
+    speakeasy-default-delete-my-message-reaction:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          emoji_name: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 995257, "message": "<value>"}
+  list_private_archived_threads:
+    speakeasy-default-list-private-archived-threads:
+      parameters:
+        path:
+          channel_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"threads": [{"id": "<value>", "type": 12, "flags": 455743, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 691417, "member_count": 430704, "total_message_sent": 558253}, {"id": "<value>", "type": 12, "flags": 807242, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 661772, "member_count": 290269, "total_message_sent": 329999}], "members": [{"id": "<value>", "user_id": "<value>", "join_timestamp": "2024-05-17T17:26:03.468Z", "flags": 928003}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2022-03-17T02:37:14.722Z", "flags": 594350}]}
+        4XX:
+          application/json: {"code": 231388, "message": "<value>"}
+  list_public_archived_threads:
+    speakeasy-default-list-public-archived-threads:
+      parameters:
+        path:
+          channel_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"threads": [], "members": [{"id": "<value>", "user_id": "<value>", "join_timestamp": "2023-06-17T19:04:20.177Z", "flags": 425864}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2023-06-10T11:17:43.588Z", "flags": 536636}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2023-10-23T17:37:51.920Z", "flags": 941183}]}
+        4XX:
+          application/json: {"code": 833382, "message": "<value>"}
+  get_application_user_role_connection:
+    speakeasy-default-get-application-user-role-connection:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 971774, "message": "<value>"}
+        "200": {}
+  update_application_user_role_connection:
+    speakeasy-default-update-application-user-role-connection:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 439471, "message": "<value>"}
+        "200": {}
+  delete_application_user_role_connection:
+    speakeasy-default-delete-application-user-role-connection:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 581880, "message": "<value>"}
+  get_my_guild_member:
+    speakeasy-default-get-my-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"flags": 492902, "joined_at": "2023-12-13T00:35:49.309Z", "pending": true, "roles": [], "user": {"id": "<value>", "username": "Keyon.Glover", "discriminator": "<value>", "public_flags": 828519, "flags": 390480}, "mute": true, "deaf": true}
+        4XX:
+          application/json: {"code": 102737, "message": "<value>"}
+  get_application_role_connections_metadata:
+    speakeasy-default-get-application-role-connections-metadata:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"key": "<key>", "name": "<value>", "description": "big so er duh usually lest stool"}]
+        4XX:
+          application/json: {"code": 895073, "message": "<value>"}
+  update_application_role_connections_metadata:
+    speakeasy-default-update-application-role-connections-metadata:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        application/json: []
+      responses:
+        "200":
+          application/json: []
+        4XX:
+          application/json: {"code": 217620, "message": "<value>"}
+  consume_entitlement:
+    speakeasy-default-consume-entitlement:
+      parameters:
+        path:
+          application_id: "<value>"
+          entitlement_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 68832, "message": "<value>"}
+  get_guild_application_command:
+    speakeasy-default-get-guild-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "zowie toward faithfully mild promptly"}
+        4XX:
+          application/json: {"code": 32575, "message": "<value>"}
+  delete_guild_application_command:
+    speakeasy-default-delete-guild-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+          command_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 812757, "message": "<value>"}
+  update_guild_application_command:
+    speakeasy-default-update-guild-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "invite boldly quicker provided"}
+        4XX:
+          application/json: {"code": 539213, "message": "<value>"}
+  list_guild_application_commands:
+    speakeasy-default-list-guild-application-commands:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "chiffonier overdue hm too humidity given concerning unabashedly sternly"}]
+        4XX:
+          application/json: {"code": 34927, "message": "<value>"}
+  bulk_set_guild_application_commands:
+    speakeasy-default-bulk-set-guild-application-commands:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+      requestBody:
+        application/json: []
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "sizzling afterwards translation coliseum left wherever finger ack"}, {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "aw yet unlucky slump despite below when playfully since bliss"}, {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "relative pink portray ha hopelessly"}]
+        4XX:
+          application/json: {"code": 761156, "message": "<value>"}
+  create_guild_application_command:
+    speakeasy-default-create-guild-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "gripping rim cheetah ew acquire"}
+        4XX:
+          application/json: {"code": 307672, "message": "<value>"}
+  join_thread:
+    speakeasy-default-join-thread:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 949993, "message": "<value>"}
+  leave_thread:
+    speakeasy-default-leave-thread:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 807320, "message": "<value>"}
+  bulk_delete_messages:
+    speakeasy-default-bulk-delete-messages:
+      parameters:
+        path:
+          channel_id: "<value>"
+      requestBody:
+        application/json: {"messages": ["<value>"]}
+      responses:
+        4XX:
+          application/json: {"code": 276458, "message": "<value>"}
+  delete_user_message_reaction:
+    speakeasy-default-delete-user-message-reaction:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          emoji_name: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 560726, "message": "<value>"}
+  list_message_reactions_by_emoji:
+    speakeasy-default-list-message-reactions-by-emoji:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          emoji_name: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "username": "Mervin.Pfeffer41", "discriminator": "<value>", "public_flags": 598277, "flags": 431863}, {"id": "<value>", "username": "Ellie5", "discriminator": "<value>", "public_flags": 354700, "flags": 198270}]
+        4XX:
+          application/json: {"code": 840028, "message": "<value>"}
+  delete_all_message_reactions_by_emoji:
+    speakeasy-default-delete-all-message-reactions-by-emoji:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          emoji_name: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 997100, "message": "<value>"}
+  delete_all_message_reactions:
+    speakeasy-default-delete-all-message-reactions:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 899673, "message": "<value>"}
+  crosspost_message:
+    speakeasy-default-crosspost-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [], "mention_roles": [], "attachments": [{"id": "<value>", "filename": "example.file", "size": 559563, "url": "https://delirious-heartbeat.biz/", "proxy_url": "https://fond-goat.net/"}, {"id": "<value>", "filename": "example.file", "size": 846402, "url": "https://realistic-story.name/", "proxy_url": "https://variable-shoulder.name/"}], "embeds": [{"type": "<value>"}], "timestamp": "2023-04-02T09:34:29.175Z", "flags": 754427, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Cierra_Batz0", "discriminator": "<value>", "public_flags": 71391, "flags": 289039}, "pinned": false, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 547403, "message": "<value>"}
+  create_thread_from_message:
+    speakeasy-default-create-thread-from-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "type": 12, "flags": 951454, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 713669, "member_count": 288426, "total_message_sent": 171752}
+        4XX:
+          application/json: {"code": 109916, "message": "<value>"}
+  get_answer_voters:
+    speakeasy-default-get-answer-voters:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+          answer_id: 409951
+        query: {}
+      responses:
+        4XX:
+          application/json: {"code": 390438, "message": "<value>"}
+        "200": {}
+  poll_expire:
+    speakeasy-default-poll-expire:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Odell.Wiza", "discriminator": "<value>", "public_flags": 620271, "flags": 699293}, {"id": "<value>", "username": "Sigurd66", "discriminator": "<value>", "public_flags": 830221, "flags": 206148}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 428476, "url": "https://submissive-siege.org", "proxy_url": "https://metallic-safe.org"}], "embeds": [{"type": "<value>"}], "timestamp": "2022-01-09T01:55:55.038Z", "flags": 616084, "components": [{"id": 765603}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Jacquelyn_Bayer17", "discriminator": "<value>", "public_flags": 154028, "flags": 532551}, "pinned": true, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 234340, "message": "<value>"}
+  get_original_webhook_message:
+    speakeasy-default-get-original-webhook-message:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Gabriel.Rosenbaum", "discriminator": "<value>", "public_flags": 541083, "flags": 431883}, {"id": "<value>", "username": "Axel.OKon", "discriminator": "<value>", "public_flags": 370809, "flags": 522978}], "mention_roles": [], "attachments": [{"id": "<value>", "filename": "example.file", "size": 786855, "url": "https://creative-airbus.biz/", "proxy_url": "https://well-to-do-cutlet.org/"}, {"id": "<value>", "filename": "example.file", "size": 652903, "url": "https://awesome-vision.com", "proxy_url": "https://peaceful-palate.com"}, {"id": "<value>", "filename": "example.file", "size": 70176, "url": "https://jittery-sediment.net/", "proxy_url": "https://bitter-trolley.com"}], "embeds": [{"type": "<value>"}], "timestamp": "2023-09-16T09:14:11.568Z", "flags": 640844, "components": [{"id": 123530, "custom_id": "<id>"}, {"id": 862515}, {"id": 161184}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Adriana77", "discriminator": "<value>", "public_flags": 453982, "flags": 372726}, "pinned": true, "mention_everyone": false, "tts": true}
+        4XX:
+          application/json: {"code": 35290, "message": "<value>"}
+  delete_original_webhook_message:
+    speakeasy-default-delete-original-webhook-message:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        4XX:
+          application/json: {"code": 35469, "message": "<value>"}
+  update_original_webhook_message:
+    speakeasy-default-update-original-webhook-message-json:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Zachariah.Durgan13", "discriminator": "<value>", "public_flags": 22217, "flags": 814217}, {"id": "<value>", "username": "Adolphus.Auer63", "discriminator": "<value>", "public_flags": 521114, "flags": 779897}], "mention_roles": [], "attachments": [{"id": "<value>", "filename": "example.file", "size": 661414, "url": "https://annual-steeple.com/", "proxy_url": "https://private-quit.info"}], "embeds": [], "timestamp": "2024-02-14T15:14:49.699Z", "flags": 755581, "components": [{"id": 696536, "custom_id": "<id>"}, {"id": 811592, "custom_id": "<id>"}, {"id": 409143, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Delphia.Glover79", "discriminator": "<value>", "public_flags": 212497, "flags": 397604}, "pinned": false, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 778793, "message": "<value>"}
+    speakeasy-default-update-original-webhook-message-form:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 798821, "url": "https://whopping-descendant.net/", "proxy_url": "https://upset-hornet.net"}, {"id": "<value>", "filename": "example.file", "size": 542272, "url": "https://bony-grandpa.org/", "proxy_url": "https://straight-tinderbox.net"}, {"id": "<value>", "filename": "example.file", "size": 948816, "url": "https://zesty-adult.net", "proxy_url": "https://bowed-soup.net/"}], "embeds": [{"type": "<value>"}], "timestamp": "2023-07-22T09:01:11.102Z", "flags": 981856, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Taya36", "discriminator": "<value>", "public_flags": 199004, "flags": 629673}, "pinned": true, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 338732, "message": "<value>"}
+    speakeasy-default-update-original-webhook-message-multipart:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Leatha_Keebler82", "discriminator": "<value>", "public_flags": 907647, "flags": 682657}, {"id": "<value>", "username": "Alia.Johnson", "discriminator": "<value>", "public_flags": 141177, "flags": 327763}, {"id": "<value>", "username": "Francis94", "discriminator": "<value>", "public_flags": 431871, "flags": 419263}], "mention_roles": [], "attachments": [{"id": "<value>", "filename": "example.file", "size": 359352, "url": "https://vivacious-pneumonia.name", "proxy_url": "https://cheerful-decongestant.org"}], "embeds": [{"type": "<value>"}], "timestamp": "2022-04-22T02:47:39.624Z", "flags": 541990, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Kevon80", "discriminator": "<value>", "public_flags": 611666, "flags": 257364}, "pinned": true, "mention_everyone": false, "tts": false}
+        4XX:
+          application/json: {"code": 119236, "message": "<value>"}
+  list_guild_scheduled_event_users:
+    speakeasy-default-list-guild-scheduled-event-users:
+      parameters:
+        path:
+          guild_id: "<value>"
+          guild_scheduled_event_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"guild_scheduled_event_id": "<value>", "user_id": "<value>"}, {"guild_scheduled_event_id": "<value>", "user_id": "<value>"}]
+        4XX:
+          application/json: {"code": 84307, "message": "<value>"}
+  get_auto_moderation_rule:
+    speakeasy-default-get-auto-moderation-rule:
+      parameters:
+        path:
+          guild_id: "<value>"
+          rule_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{}], "trigger_metadata": {"keyword_filter": ["<value>", "<value>", "<value>"], "regex_patterns": ["<value>", "<value>"], "allow_list": ["<value>", "<value>"]}}
+        4XX:
+          application/json: {"code": 798214, "message": "<value>"}
+  delete_auto_moderation_rule:
+    speakeasy-default-delete-auto-moderation-rule:
+      parameters:
+        path:
+          guild_id: "<value>"
+          rule_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 397386, "message": "<value>"}
+  update_auto_moderation_rule:
+    speakeasy-default-update-auto-moderation-rule:
+      parameters:
+        path:
+          guild_id: "<value>"
+          rule_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{"metadata": {"duration_seconds": 175056}}, {}, {"metadata": {"duration_seconds": 704102}}]}
+        4XX:
+          application/json: {"code": 614057, "message": "<value>"}
+  list_auto_moderation_rules:
+    speakeasy-default-list-auto-moderation-rules:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{}], "trigger_metadata": {"allow_list": ["<value>"], "presets": [285064, 954672]}}]
+        4XX:
+          application/json: {"code": 541636, "message": "<value>"}
+  create_auto_moderation_rule:
+    speakeasy-default-create-auto-moderation-rule:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{}], "trigger_metadata": {"mention_total_limit": 69025}}
+        4XX:
+          application/json: {"code": 341314, "message": "<value>"}
+  get_self_voice_state:
+    speakeasy-default-get-self-voice-state:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"deaf": false, "mute": false, "suppress": false, "self_deaf": true, "self_mute": false, "self_video": false, "session_id": "<id>", "user_id": "<value>"}
+        4XX:
+          application/json: {"code": 463205, "message": "<value>"}
+  update_self_voice_state:
+    speakeasy-default-update-self-voice-state:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 250069, "message": "<value>"}
+  search_guild_members:
+    speakeasy-default-search-guild-members:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query:
+          limit: 886866
+          query: "<value>"
+      responses:
+        "200":
+          application/json: [{"flags": 455124, "joined_at": "2022-08-19T23:53:06.622Z", "pending": false, "roles": ["<value>"], "user": {"id": "<value>", "username": "Gus_Sawayn", "discriminator": "<value>", "public_flags": 744257, "flags": 536951}, "mute": false, "deaf": true}, {"flags": 244858, "joined_at": "2024-01-11T05:00:18.868Z", "pending": false, "roles": ["<value>", "<value>"], "user": {"id": "<value>", "username": "Chet.Cremin", "discriminator": "<value>", "public_flags": 981199, "flags": 764836}, "mute": false, "deaf": false}, {"flags": 818887, "joined_at": "2024-09-27T15:40:40.626Z", "pending": true, "roles": ["<value>", "<value>", "<value>"], "user": {"id": "<value>", "username": "Ayana56", "discriminator": "<value>", "public_flags": 874772, "flags": 735448}, "mute": false, "deaf": true}]
+        4XX:
+          application/json: {"code": 160627, "message": "<value>"}
+  get_active_guild_threads:
+    speakeasy-default-get-active-guild-threads:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"threads": [{"id": "<value>", "type": 11, "flags": 931774, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 668434, "member_count": 868850, "total_message_sent": 520504}, {"id": "<value>", "type": 11, "flags": 945742, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 714570, "member_count": 789443, "total_message_sent": 130361}, {"id": "<value>", "type": 10, "flags": 984831, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 902596, "member_count": 183938, "total_message_sent": 180252}], "members": []}
+        4XX:
+          application/json: {"code": 736228, "message": "<value>"}
+  update_my_guild_member:
+    speakeasy-default-update-my-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"flags": 11680, "joined_at": "2022-11-01T11:01:26.122Z", "pending": true, "roles": ["<value>", "<value>"], "user": {"id": "<value>", "username": "Maeve39", "discriminator": "<value>", "public_flags": 691556, "flags": 948787}, "mute": false, "deaf": true}
+        4XX:
+          application/json: {"code": 955522, "message": "<value>"}
+  add_guild_member_role:
+    speakeasy-default-add-guild-member-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+          role_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 339088, "message": "<value>"}
+  delete_guild_member_role:
+    speakeasy-default-delete-guild-member-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+          role_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 722174, "message": "<value>"}
+  leave_guild:
+    speakeasy-default-leave-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 571529, "message": "<value>"}
+  applications_get_activity_instance:
+    speakeasy-default-applications-get-activity-instance:
+      parameters:
+        path:
+          application_id: "<value>"
+          instance_id: "<id>"
+      responses:
+        "200":
+          application/json: {"application_id": "<value>", "instance_id": "<id>", "launch_id": "<id>", "users": []}
+        4XX:
+          application/json: {"code": 107300, "message": "<value>"}
+  get_entitlement:
+    speakeasy-default-get-entitlement:
+      parameters:
+        path:
+          application_id: "<value>"
+          entitlement_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "sku_id": "<value>", "application_id": "<value>", "user_id": "<value>", "deleted": true}
+        4XX:
+          application/json: {"code": 127555, "message": "<value>"}
+  delete_entitlement:
+    speakeasy-default-delete-entitlement:
+      parameters:
+        path:
+          application_id: "<value>"
+          entitlement_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 718880, "message": "<value>"}
+  get_entitlements:
+    speakeasy-default-get-entitlements:
+      parameters:
+        path:
+          application_id: "<value>"
+        query:
+          sku_ids: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "sku_id": "<value>", "application_id": "<value>", "user_id": "<value>", "deleted": false}, {"id": "<value>", "sku_id": "<value>", "application_id": "<value>", "user_id": "<value>", "deleted": false}]
+        4XX:
+          application/json: {"code": 515013, "message": "<value>"}
+  create_entitlement:
+    speakeasy-default-create-entitlement:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        application/json: {"sku_id": "<value>", "owner_id": "<value>", "owner_type": 617153}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "sku_id": "<value>", "application_id": "<value>", "user_id": "<value>", "deleted": true}
+        4XX:
+          application/json: {"code": 615201, "message": "<value>"}
+  upload_application_attachment:
+    speakeasy-default-upload-application-attachment:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        multipart/form-data: {"file": "<value>"}
+      responses:
+        "200":
+          application/json: {"attachment": {"id": "<value>", "filename": "example.file", "size": 449227, "url": "https://wide-merit.com", "proxy_url": "https://needy-parade.com/"}}
+        4XX:
+          application/json: {"code": 303239, "message": "<value>"}
+  get_application_command:
+    speakeasy-default-get-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "since er whoever monumental judgementally"}
+        4XX:
+          application/json: {"code": 96700, "message": "<value>"}
+  delete_application_command:
+    speakeasy-default-delete-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          command_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 105565, "message": "<value>"}
+  update_application_command:
+    speakeasy-default-update-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+          command_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "ah excluding damaged carouse per ponder"}
+        4XX:
+          application/json: {"code": 383781, "message": "<value>"}
+  list_application_commands:
+    speakeasy-default-list-application-commands:
+      parameters:
+        path:
+          application_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: []
+        4XX:
+          application/json: {"code": 992859, "message": "<value>"}
+  bulk_set_application_commands:
+    speakeasy-default-bulk-set-application-commands:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        application/json: [{"name": "<value>"}, {"name": "<value>"}]
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "adumbrate configuration gadzooks ring liquid micromanage"}]
+        4XX:
+          application/json: {"code": 741293, "message": "<value>"}
+  create_application_command:
+    speakeasy-default-create-application-command:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "private perfectly youthfully via supposing probate"}
+        4XX:
+          application/json: {"code": 333821, "message": "<value>"}
+  get_application_emoji:
+    speakeasy-default-get-application-emoji:
+      parameters:
+        path:
+          application_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>", "<value>"], "require_colons": false, "managed": false, "animated": false, "available": true}
+        4XX:
+          application/json: {"code": 803605, "message": "<value>"}
+  delete_application_emoji:
+    speakeasy-default-delete-application-emoji:
+      parameters:
+        path:
+          application_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 389679, "message": "<value>"}
+  update_application_emoji:
+    speakeasy-default-update-application-emoji:
+      parameters:
+        path:
+          application_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>"], "require_colons": true, "managed": true, "animated": false, "available": true}
+        4XX:
+          application/json: {"code": 33202, "message": "<value>"}
+  list_application_emojis:
+    speakeasy-default-list-application-emojis:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        "200":
+          application/json: {"items": []}
+        4XX:
+          application/json: {"code": 211030, "message": "<value>"}
+  create_application_emoji:
+    speakeasy-default-create-application-emoji:
+      parameters:
+        path:
+          application_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "image": "https://picsum.photos/seed/Znlsp/3960/2101"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "name": "<value>", "roles": [], "require_colons": false, "managed": false, "animated": false, "available": true}
+        4XX:
+          application/json: {"code": 893890, "message": "<value>"}
+  send_soundboard_sound:
+    speakeasy-default-send-soundboard-sound:
+      parameters:
+        path:
+          channel_id: "<value>"
+      requestBody:
+        application/json: {"sound_id": "<value>"}
+      responses:
+        4XX:
+          application/json: {"code": 918684, "message": "<value>"}
+  get_thread_member:
+    speakeasy-default-get-thread-member:
+      parameters:
+        path:
+          channel_id: "<value>"
+          user_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "user_id": "<value>", "join_timestamp": "2022-06-24T23:53:44.951Z", "flags": 278323}
+        4XX:
+          application/json: {"code": 985090, "message": "<value>"}
+  add_thread_member:
+    speakeasy-default-add-thread-member:
+      parameters:
+        path:
+          channel_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 178424, "message": "<value>"}
+  delete_thread_member:
+    speakeasy-default-delete-thread-member:
+      parameters:
+        path:
+          channel_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 785342, "message": "<value>"}
+  list_thread_members:
+    speakeasy-default-list-thread-members:
+      parameters:
+        path:
+          channel_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "user_id": "<value>", "join_timestamp": "2024-04-12T05:17:20.697Z", "flags": 848838}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2023-11-26T06:24:15.341Z", "flags": 450338}, {"id": "<value>", "user_id": "<value>", "join_timestamp": "2022-09-06T12:21:28.922Z", "flags": 274790}]
+        4XX:
+          application/json: {"code": 337604, "message": "<value>"}
+  set_channel_permission_overwrite:
+    speakeasy-default-set-channel-permission-overwrite:
+      parameters:
+        path:
+          channel_id: "<value>"
+          overwrite_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 85259, "message": "<value>"}
+  delete_channel_permission_overwrite:
+    speakeasy-default-delete-channel-permission-overwrite:
+      parameters:
+        path:
+          channel_id: "<value>"
+          overwrite_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 404900, "message": "<value>"}
+  add_group_dm_user:
+    speakeasy-default-add-group-dm-user:
+      parameters:
+        path:
+          channel_id: "<value>"
+          user_id: "<value>"
+      responses:
+        "201":
+          application/json: {"id": "<value>", "type": 1, "flags": 175202, "recipients": []}
+        4XX:
+          application/json: {"code": 49871, "message": "<value>"}
+  delete_group_dm_user:
+    speakeasy-default-delete-group-dm-user:
+      parameters:
+        path:
+          channel_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 598203, "message": "<value>"}
+  follow_channel:
+    speakeasy-default-follow-channel:
+      parameters:
+        path:
+          channel_id: "<value>"
+      requestBody:
+        application/json: {"webhook_channel_id": "<value>"}
+      responses:
+        "200":
+          application/json: {"channel_id": "<value>", "webhook_id": "<value>"}
+        4XX:
+          application/json: {"code": 939428, "message": "<value>"}
+  get_message:
+    speakeasy-default-get-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Elenora_Boyle", "discriminator": "<value>", "public_flags": 780144, "flags": 362378}, {"id": "<value>", "username": "Eleanora.Schinner", "discriminator": "<value>", "public_flags": 302834, "flags": 474599}], "mention_roles": [], "attachments": [{"id": "<value>", "filename": "example.file", "size": 285875, "url": "https://aged-haircut.name", "proxy_url": "https://overcooked-pantyhose.biz/"}], "embeds": [{"type": "<value>"}], "timestamp": "2022-03-28T01:14:20.633Z", "flags": 911769, "components": [{"id": 558834, "custom_id": "<id>"}, {"id": 521235, "custom_id": "<id>"}, {"id": 458049, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Tressie.Boyer23", "discriminator": "<value>", "public_flags": 169346, "flags": 505416}, "pinned": true, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 246254, "message": "<value>"}
+  delete_message:
+    speakeasy-default-delete-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 232683, "message": "<value>"}
+  update_message:
+    speakeasy-default-update-message-json:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Quincy54", "discriminator": "<value>", "public_flags": 483332, "flags": 286778}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 724383, "url": "https://fine-acquaintance.net", "proxy_url": "https://sad-pasta.net"}], "embeds": [], "timestamp": "2023-05-22T11:11:23.018Z", "flags": 981058, "components": [{"id": 242978, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Erwin16", "discriminator": "<value>", "public_flags": 750208, "flags": 394444}, "pinned": false, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 761910, "message": "<value>"}
+    speakeasy-default-update-message-form:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Desiree13", "discriminator": "<value>", "public_flags": 252555, "flags": 698165}, {"id": "<value>", "username": "Hellen.Romaguera97", "discriminator": "<value>", "public_flags": 121620, "flags": 973259}], "mention_roles": ["<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 766372, "url": "https://rich-premeditation.info", "proxy_url": "https://grown-independence.org/"}, {"id": "<value>", "filename": "example.file", "size": 697901, "url": "https://devoted-poetry.biz", "proxy_url": "https://ragged-unit.info"}], "embeds": [], "timestamp": "2024-03-25T22:11:41.480Z", "flags": 782165, "components": [{"id": 30090, "custom_id": "<id>"}, {"id": 85042}, {"id": 491687, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Jedidiah.Vandervort", "discriminator": "<value>", "public_flags": 42608, "flags": 995949}, "pinned": false, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 283605, "message": "<value>"}
+    speakeasy-default-update-message-multipart:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [], "embeds": [{"type": "<value>"}], "timestamp": "2022-02-27T16:33:31.084Z", "flags": 543759, "components": [{"id": 252423, "custom_id": "<id>"}, {"id": 511601, "custom_id": "<id>"}, {"id": 750084, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Mohamed.Bins41", "discriminator": "<value>", "public_flags": 239094, "flags": 725508}, "pinned": false, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 318493, "message": "<value>"}
+  list_messages:
+    speakeasy-default-list-messages:
+      parameters:
+        path:
+          channel_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"content": "<value>", "mentions": [{"id": "<value>", "username": "Neal36", "discriminator": "<value>", "public_flags": 444387, "flags": 524180}, {"id": "<value>", "username": "Loraine_Bogan30", "discriminator": "<value>", "public_flags": 637403, "flags": 595843}], "mention_roles": ["<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 708472, "url": "https://lined-smoke.com/", "proxy_url": "https://mysterious-molasses.net"}, {"id": "<value>", "filename": "example.file", "size": 505082, "url": "https://dense-traffic.biz/", "proxy_url": "https://windy-council.biz/"}], "embeds": [{"type": "<value>"}], "timestamp": "2023-11-23T00:50:16.956Z", "flags": 399886, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Marisol.Brekke", "discriminator": "<value>", "public_flags": 383296, "flags": 362508}, "pinned": true, "mention_everyone": false, "tts": true}, {"content": "<value>", "mentions": [{"id": "<value>", "username": "Verdie.Stracke3", "discriminator": "<value>", "public_flags": 110661, "flags": 971545}, {"id": "<value>", "username": "Tito65", "discriminator": "<value>", "public_flags": 118079, "flags": 617773}, {"id": "<value>", "username": "Edgardo_Bruen11", "discriminator": "<value>", "public_flags": 808311, "flags": 13308}], "mention_roles": ["<value>"], "attachments": [], "embeds": [{"type": "<value>"}, {"type": "<value>"}, {"type": "<value>"}], "timestamp": "2022-01-17T01:13:00.719Z", "flags": 475698, "components": [{"id": 547272, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Jonathon75", "discriminator": "<value>", "public_flags": 641802, "flags": 985523}, "pinned": true, "mention_everyone": true, "tts": true}]
+        4XX:
+          application/json: {"code": 389684, "message": "<value>"}
+  create_message:
+    speakeasy-default-create-message-json:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Michel.Turner", "discriminator": "<value>", "public_flags": 578176, "flags": 590337}, {"id": "<value>", "username": "Davin19", "discriminator": "<value>", "public_flags": 371509, "flags": 358351}, {"id": "<value>", "username": "Jeramie76", "discriminator": "<value>", "public_flags": 492783, "flags": 714531}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 934306, "url": "https://focused-account.biz", "proxy_url": "https://great-agreement.biz/"}, {"id": "<value>", "filename": "example.file", "size": 449789, "url": "https://tight-bug.info", "proxy_url": "https://common-convection.com"}, {"id": "<value>", "filename": "example.file", "size": 757047, "url": "https://agile-operating.biz/", "proxy_url": "https://closed-accountability.com/"}], "embeds": [{"type": "<value>"}, {"type": "<value>"}, {"type": "<value>"}], "timestamp": "2022-07-06T20:26:53.695Z", "flags": 471171, "components": [{"id": 551848, "custom_id": "<id>"}, {"id": 927021, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Lysanne_Little62", "discriminator": "<value>", "public_flags": 265719, "flags": 633991}, "pinned": true, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 515708, "message": "<value>"}
+    speakeasy-default-create-message-form:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Charlene_Hoeger", "discriminator": "<value>", "public_flags": 26367, "flags": 289484}, {"id": "<value>", "username": "Erich21", "discriminator": "<value>", "public_flags": 576493, "flags": 12683}], "mention_roles": ["<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 834262, "url": "https://expert-slide.com", "proxy_url": "https://worthless-whack.name/"}, {"id": "<value>", "filename": "example.file", "size": 199251, "url": "https://enlightened-request.org/", "proxy_url": "https://decent-kielbasa.org"}, {"id": "<value>", "filename": "example.file", "size": 684321, "url": "https://metallic-scenario.biz/", "proxy_url": "https://enchanted-baritone.org"}], "embeds": [], "timestamp": "2023-07-02T08:31:08.200Z", "flags": 975495, "components": [{"id": 383802}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Hayley72", "discriminator": "<value>", "public_flags": 576072, "flags": 697787}, "pinned": false, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 506589, "message": "<value>"}
+    speakeasy-default-create-message-multipart:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 405577, "url": "https://reasonable-vanadyl.info/", "proxy_url": "https://immense-singing.com"}, {"id": "<value>", "filename": "example.file", "size": 495602, "url": "https://hospitable-clamp.info/", "proxy_url": "https://earnest-unit.name"}, {"id": "<value>", "filename": "example.file", "size": 719146, "url": "https://lighthearted-sock.net", "proxy_url": "https://unwritten-ravioli.net/"}], "embeds": [{"type": "<value>"}], "timestamp": "2024-12-01T17:14:37.824Z", "flags": 708340, "components": [{"id": 253351, "custom_id": "<id>"}, {"id": 436316, "custom_id": "<id>"}, {"id": 610017, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Orpha_Fadel6", "discriminator": "<value>", "public_flags": 550378, "flags": 828704}, "pinned": true, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 356964, "message": "<value>"}
+  list_channel_webhooks:
+    speakeasy-default-list-channel-webhooks:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>"}]
+        4XX:
+          application/json: {"code": 181212, "message": "<value>"}
+  create_webhook:
+    speakeasy-default-create-webhook:
+      parameters:
+        path:
+          channel_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>"}
+        4XX:
+          application/json: {"code": 39946, "message": "<value>"}
+  list_channel_invites:
+    speakeasy-default-list-channel-invites:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"code": "<value>"}, {"code": "<value>"}, {"code": "<value>"}]
+        4XX:
+          application/json: {"code": 722679, "message": "<value>"}
+  create_channel_invite:
+    speakeasy-default-create-channel-invite:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>"}
+        4XX:
+          application/json: {"code": 491061, "message": "<value>"}
+  create_thread:
+    speakeasy-default-create-thread:
+      parameters:
+        path:
+          channel_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+        application/x-www-form-urlencoded: {"name": "<value>"}
+        multipart/form-data: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "type": 10, "flags": 330632, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 20643, "member_count": 396202, "total_message_sent": 527412}
+        4XX:
+          application/json: {"code": 317659, "message": "<value>"}
+  trigger_typing_indicator:
+    speakeasy-default-trigger-typing-indicator:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 149690, "message": "<value>"}
+        "200": {}
+  pin_message:
+    speakeasy-default-pin-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 268565, "message": "<value>"}
+  unpin_message:
+    speakeasy-default-unpin-message:
+      parameters:
+        path:
+          channel_id: "<value>"
+          message_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 656476, "message": "<value>"}
+  list_pinned_messages:
+    speakeasy-default-list-pinned-messages:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"content": "<value>", "mentions": [{"id": "<value>", "username": "Luther_Muller", "discriminator": "<value>", "public_flags": 99793, "flags": 803259}], "mention_roles": ["<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 343453, "url": "https://insignificant-ceramic.info/", "proxy_url": "https://fragrant-adaptation.net"}, {"id": "<value>", "filename": "example.file", "size": 796541, "url": "https://silver-overheard.info/", "proxy_url": "https://scented-contractor.biz"}], "embeds": [{"type": "<value>"}, {"type": "<value>"}, {"type": "<value>"}], "timestamp": "2023-11-30T01:38:03.491Z", "flags": 733641, "components": [{"id": 231748, "custom_id": "<id>"}, {"id": 218104, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Wilfredo73", "discriminator": "<value>", "public_flags": 495488, "flags": 742930}, "pinned": false, "mention_everyone": false, "tts": true}, {"content": "<value>", "mentions": [], "mention_roles": ["<value>", "<value>"], "attachments": [], "embeds": [{"type": "<value>"}, {"type": "<value>"}, {"type": "<value>"}], "timestamp": "2024-06-23T15:11:51.038Z", "flags": 484146, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Lon29", "discriminator": "<value>", "public_flags": 79386, "flags": 420691}, "pinned": true, "mention_everyone": true, "tts": true}]
+        4XX:
+          application/json: {"code": 979964, "message": "<value>"}
+  get_webhook_message:
+    speakeasy-default-get-webhook-message:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+          message_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Greta82", "discriminator": "<value>", "public_flags": 435341, "flags": 520550}, {"id": "<value>", "username": "Annie15", "discriminator": "<value>", "public_flags": 879835, "flags": 748540}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 164719, "url": "https://immaculate-spear.info", "proxy_url": "https://qualified-filter.org"}], "embeds": [{"type": "<value>"}, {"type": "<value>"}], "timestamp": "2022-08-02T18:49:36.569Z", "flags": 960012, "components": [{"id": 558834, "custom_id": "<id>"}, {"id": 521235, "custom_id": "<id>"}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Letitia4", "discriminator": "<value>", "public_flags": 398637, "flags": 580813}, "pinned": false, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 717436, "message": "<value>"}
+  delete_webhook_message:
+    speakeasy-default-delete-webhook-message:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+          message_id: "<value>"
+        query: {}
+      responses:
+        4XX:
+          application/json: {"code": 540952, "message": "<value>"}
+  update_webhook_message:
+    speakeasy-default-update-webhook-message-json:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+          message_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Brannon_Bartell31", "discriminator": "<value>", "public_flags": 534376, "flags": 994604}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 692727, "url": "https://svelte-ectoderm.com/", "proxy_url": "https://royal-kit.biz"}, {"id": "<value>", "filename": "example.file", "size": 597346, "url": "https://handsome-folklore.info/", "proxy_url": "https://immense-tennis.org"}, {"id": "<value>", "filename": "example.file", "size": 678831, "url": "https://knowledgeable-t-shirt.com", "proxy_url": "https://stupendous-section.org"}], "embeds": [{"type": "<value>"}, {"type": "<value>"}], "timestamp": "2023-04-12T11:39:02.986Z", "flags": 854926, "components": [{"id": 242978, "custom_id": "<id>"}, {"id": 462442}, {"id": 945824}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Katarina22", "discriminator": "<value>", "public_flags": 569869, "flags": 981260}, "pinned": false, "mention_everyone": true, "tts": true}
+        4XX:
+          application/json: {"code": 207545, "message": "<value>"}
+    speakeasy-default-update-webhook-message-form:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+          message_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [], "mention_roles": ["<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 994453, "url": "https://miserly-coast.info/", "proxy_url": "https://aware-adaptation.biz"}, {"id": "<value>", "filename": "example.file", "size": 72356, "url": "https://careless-disconnection.org", "proxy_url": "https://ideal-grandson.biz/"}, {"id": "<value>", "filename": "example.file", "size": 645860, "url": "https://married-valuable.org", "proxy_url": "https://gloomy-nudge.org/"}], "embeds": [{"type": "<value>"}, {"type": "<value>"}], "timestamp": "2024-08-17T16:32:58.219Z", "flags": 29504, "components": [{"id": 30090, "custom_id": "<id>"}, {"id": 85042}], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Magdalen.Morar19", "discriminator": "<value>", "public_flags": 508614, "flags": 338033}, "pinned": false, "mention_everyone": true, "tts": false}
+        4XX:
+          application/json: {"code": 771762, "message": "<value>"}
+    speakeasy-default-update-webhook-message-multipart:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+          message_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"content": "<value>", "mentions": [{"id": "<value>", "username": "Aida_Ledner", "discriminator": "<value>", "public_flags": 48540, "flags": 176812}], "mention_roles": ["<value>", "<value>", "<value>"], "attachments": [{"id": "<value>", "filename": "example.file", "size": 174858, "url": "https://second-noon.biz/", "proxy_url": "https://vague-clamp.name"}, {"id": "<value>", "filename": "example.file", "size": 590846, "url": "https://unselfish-heartbeat.name/", "proxy_url": "https://youthful-deck.com/"}, {"id": "<value>", "filename": "example.file", "size": 540751, "url": "https://corrupt-ceramic.com/", "proxy_url": "https://shiny-cruelty.com/"}], "embeds": [{"type": "<value>"}], "timestamp": "2024-05-17T11:36:19.635Z", "flags": 589226, "components": [], "id": "<value>", "channel_id": "<value>", "author": {"id": "<value>", "username": "Erick_Monahan65", "discriminator": "<value>", "public_flags": 651494, "flags": 277151}, "pinned": true, "mention_everyone": false, "tts": true}
+        4XX:
+          application/json: {"code": 592697, "message": "<value>"}
+  execute_github_compatible_webhook:
+    speakeasy-default-execute-github-compatible-webhook:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      requestBody:
+        application/json: {"sender": {"id": 61384, "login": "Erica.Hodkiewicz", "html_url": "https://muddy-bob.com", "avatar_url": "https://pretty-mantua.net"}}
+      responses:
+        4XX:
+          application/json: {"code": 823354, "message": "<value>"}
+  execute_slack_compatible_webhook:
+    speakeasy-default-execute-slack-compatible-webhook:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: "<value>"
+        4XX:
+          application/json: {"code": 114823, "message": "<value>"}
+  get_guild_template:
+    speakeasy-default-get-guild-template:
+      parameters:
+        path:
+          code: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>", "name": "<value>", "usage_count": 33044, "creator_id": "<value>", "created_at": "2023-11-09T00:35:01.063Z", "updated_at": "2023-02-15T21:42:00.537Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 298018, "roles": [], "channels": [{"type": 2, "bitrate": 110125, "user_limit": 534838, "nsfw": true, "rate_limit_per_user": 809088, "permission_overwrites": [{"id": "<value>", "allow": "<value>", "deny": "<value>"}], "template": "<value>"}, {"type": 4, "bitrate": 106006, "user_limit": 936262, "nsfw": true, "rate_limit_per_user": 735316, "permission_overwrites": [], "template": "<value>"}]}}
+        4XX:
+          application/json: {"code": 607251, "message": "<value>"}
+  create_guild_from_template:
+    speakeasy-default-create-guild-from-template:
+      parameters:
+        path:
+          code: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "name": "<value>", "features": ["<value>", "<value>"], "owner_id": "<value>", "region": "<value>", "system_channel_flags": 822625, "widget_enabled": false, "roles": [{"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 243546, "color": 454969, "hoist": true, "managed": true, "mentionable": true}, {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 4025, "color": 594651, "hoist": false, "managed": true, "mentionable": true}], "premium_subscription_count": 740639, "premium_progress_bar_enabled": true, "nsfw": false, "emojis": [{"id": "<value>", "name": "<value>", "roles": ["<value>"], "require_colons": true, "managed": false, "animated": true, "available": true}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>", "<value>"], "require_colons": true, "managed": true, "animated": true, "available": true}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>"], "require_colons": true, "managed": true, "animated": true, "available": true}], "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}]}
+        4XX:
+          application/json: {"code": 853221, "message": "<value>"}
+  get_guild_new_member_welcome:
+    speakeasy-default-get-guild-new-member-welcome:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "enabled": true}
+        4XX:
+          application/json: {"code": 289971, "message": "<value>"}
+  get_guild_soundboard_sound:
+    speakeasy-default-get-guild-soundboard-sound:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sound_id: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "sound_id": "<value>", "volume": "7464.98", "available": false}
+        4XX:
+          application/json: {"code": 69332, "message": "<value>"}
+  delete_guild_soundboard_sound:
+    speakeasy-default-delete-guild-soundboard-sound:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sound_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 160161, "message": "<value>"}
+  update_guild_soundboard_sound:
+    speakeasy-default-update-guild-soundboard-sound:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sound_id: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "sound_id": "<value>", "volume": "374.52", "available": false}
+        4XX:
+          application/json: {"code": 482670, "message": "<value>"}
+  list_guild_soundboard_sounds:
+    speakeasy-default-list-guild-soundboard-sounds:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"items": [{"name": "<value>", "sound_id": "<value>", "volume": "7559.43", "available": true}, {"name": "<value>", "sound_id": "<value>", "volume": "42.23", "available": true}]}
+        4XX:
+          application/json: {"code": 377887, "message": "<value>"}
+  create_guild_soundboard_sound:
+    speakeasy-default-create-guild-soundboard-sound:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "sound": "<value>"}
+      responses:
+        "201":
+          application/json: {"name": "<value>", "sound_id": "<value>", "volume": "4156.80", "available": false}
+        4XX:
+          application/json: {"code": 846903, "message": "<value>"}
+  get_guild_scheduled_event:
+    speakeasy-default-get-guild-scheduled-event:
+      parameters:
+        path:
+          guild_id: "<value>"
+          guild_scheduled_event_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2022-06-20T22:58:03.032Z"}
+        4XX:
+          application/json: {"code": 812134, "message": "<value>"}
+  delete_guild_scheduled_event:
+    speakeasy-default-delete-guild-scheduled-event:
+      parameters:
+        path:
+          guild_id: "<value>"
+          guild_scheduled_event_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 507603, "message": "<value>"}
+  update_guild_scheduled_event:
+    speakeasy-default-update-guild-scheduled-event:
+      parameters:
+        path:
+          guild_id: "<value>"
+          guild_scheduled_event_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2023-01-13T16:52:57.274Z"}
+        4XX:
+          application/json: {"code": 156591, "message": "<value>"}
+  list_guild_scheduled_events:
+    speakeasy-default-list-guild-scheduled-events:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2023-08-23T19:26:20.850Z"}]
+        4XX:
+          application/json: {"code": 639867, "message": "<value>"}
+  create_guild_scheduled_event:
+    speakeasy-default-create-guild-scheduled-event:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "scheduled_start_time": "2023-11-24T08:45:24.906Z"}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2022-04-03T08:05:02.311Z"}
+        4XX:
+          application/json: {"code": 57940, "message": "<value>"}
+  get_guild_welcome_screen:
+    speakeasy-default-get-guild-welcome-screen:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"welcome_channels": [{"channel_id": "<value>", "description": "outside cruelly incidentally structure"}, {"channel_id": "<value>", "description": "anenst repeat needily"}]}
+        4XX:
+          application/json: {"code": 56471, "message": "<value>"}
+  update_guild_welcome_screen:
+    speakeasy-default-update-guild-welcome-screen:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"welcome_channels": [{"channel_id": "<value>", "description": "certification lest muted loudly that hence astride before"}, {"channel_id": "<value>", "description": "likewise once yieldingly aha um excitedly vanish"}]}
+        4XX:
+          application/json: {"code": 27679, "message": "<value>"}
+  get_voice_state:
+    speakeasy-default-get-voice-state:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        "200":
+          application/json: {"deaf": true, "mute": false, "suppress": false, "self_deaf": false, "self_mute": false, "self_video": false, "session_id": "<id>", "user_id": "<value>"}
+        4XX:
+          application/json: {"code": 719701, "message": "<value>"}
+  update_voice_state:
+    speakeasy-default-update-voice-state:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 806160, "message": "<value>"}
+  delete_guild_integration:
+    speakeasy-default-delete-guild-integration:
+      parameters:
+        path:
+          guild_id: "<value>"
+          integration_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 115795, "message": "<value>"}
+  list_guild_integrations:
+    speakeasy-default-list-guild-integrations:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>"}, {"id": "<id>", "user": {"id": "<value>", "username": "Marie.Fay", "discriminator": "<value>", "public_flags": 17577, "flags": 718303}}, {"id": "<value>", "application": {"id": "<value>", "name": "<value>", "description": "miserably fedora blah"}, "scopes": ["<value>", "<value>", "<value>"]}]
+        4XX:
+          application/json: {"code": 977185, "message": "<value>"}
+  get_guild_widget:
+    speakeasy-default-get-guild-widget:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "channels": [{"id": "<value>", "name": "<value>", "position": 465545}, {"id": "<value>", "name": "<value>", "position": 145603}], "members": [{"id": "<id>", "username": "Lura.Schmidt", "status": "<value>", "avatar_url": "https://kosher-representation.org"}], "presence_count": 26844}
+        4XX:
+          application/json: {"code": 234830, "message": "<value>"}
+  get_guilds_onboarding:
+    speakeasy-default-get-guilds-onboarding:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "prompts": [], "default_channel_ids": [], "enabled": false}
+        4XX:
+          application/json: {"code": 64263, "message": "<value>"}
+  put_guilds_onboarding:
+    speakeasy-default-put-guilds-onboarding:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "prompts": [{"id": "<value>", "title": "<value>", "options": [{"id": "<value>", "title": "<value>", "description": "gee log er scholarship sans since ruin hmph scout traffic", "role_ids": ["<value>"], "channel_ids": ["<value>", "<value>"]}, {"id": "<value>", "title": "<value>", "description": "direct however on while cautiously now", "role_ids": ["<value>", "<value>", "<value>"], "channel_ids": ["<value>", "<value>"]}, {"id": "<value>", "title": "<value>", "description": "oh because cram", "role_ids": ["<value>"], "channel_ids": ["<value>", "<value>"]}], "single_select": true, "required": false, "in_onboarding": false}], "default_channel_ids": ["<value>"], "enabled": true}
+        4XX:
+          application/json: {"code": 979621, "message": "<value>"}
+  get_guild_vanity_url:
+    speakeasy-default-get-guild-vanity-url:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"uses": 429624}
+        4XX:
+          application/json: {"code": 538289, "message": "<value>"}
+  list_guild_audit_log_entries:
+    speakeasy-default-list-guild-audit-log-entries:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"audit_log_entries": [{"id": "<value>"}, {"id": "<value>"}, {"id": "<value>"}], "users": [{"id": "<value>", "username": "Madyson.Weissnat", "discriminator": "<value>", "public_flags": 246466, "flags": 320927}, {"id": "<value>", "username": "Brain.Erdman55", "discriminator": "<value>", "public_flags": 731295, "flags": 643852}], "integrations": [{"id": "<value>"}, {"id": "<value>"}], "webhooks": [{"id": "<value>", "name": "<value>"}, {"id": "<value>", "name": "<value>"}], "guild_scheduled_events": [{"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2023-01-25T23:01:29.127Z"}, {"id": "<value>", "guild_id": "<value>", "name": "<value>", "scheduled_start_time": "2024-04-01T23:13:22.818Z", "entity_metadata": {"location": "<value>"}}], "threads": [{"id": "<value>", "type": 11, "flags": 255058, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 603494, "member_count": 295543, "total_message_sent": 577486}], "application_commands": [{"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "of intensely boohoo clueless lest blond tense patiently wrong opposite"}, {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "patroller dividend whenever"}, {"id": "<value>", "application_id": "<value>", "version": "<value>", "name": "<value>", "description": "behind phew frankly tense convoke after gut past"}], "auto_moderation_rules": [{"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{"metadata": {"channel_id": "<value>"}}]}, {"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": []}, {"id": "<value>", "guild_id": "<value>", "creator_id": "<value>", "name": "<value>", "actions": [{}], "trigger_metadata": {"mention_total_limit": 944029}}]}
+        4XX:
+          application/json: {"code": 756725, "message": "<value>"}
+  get_guild_widget_png:
+    speakeasy-default-get-guild-widget-png:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          image/png: "<value>"
+        4XX:
+          application/json: {"code": 37209, "message": "<value>"}
+  sync_guild_template:
+    speakeasy-default-sync-guild-template:
+      parameters:
+        path:
+          guild_id: "<value>"
+          code: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>", "name": "<value>", "usage_count": 789968, "creator_id": "<value>", "created_at": "2023-06-11T07:51:47.805Z", "updated_at": "2024-12-07T17:12:40.111Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 507029, "roles": [], "channels": [{"type": 0, "bitrate": 968806, "user_limit": 249682, "nsfw": false, "rate_limit_per_user": 183004, "permission_overwrites": [{"id": "<value>", "allow": "<value>", "deny": "<value>"}, {"id": "<value>", "allow": "<value>", "deny": "<value>"}], "template": "<value>"}, {"type": 0, "bitrate": 951640, "user_limit": 652471, "nsfw": true, "rate_limit_per_user": 246199, "permission_overwrites": [], "template": "<value>"}]}}
+        4XX:
+          application/json: {"code": 450602, "message": "<value>"}
+  delete_guild_template:
+    speakeasy-default-delete-guild-template:
+      parameters:
+        path:
+          guild_id: "<value>"
+          code: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>", "name": "<value>", "usage_count": 521414, "creator_id": "<value>", "created_at": "2022-09-27T03:36:03.612Z", "updated_at": "2024-05-29T20:02:56.472Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 301482, "roles": [{"id": 102316, "name": "<value>", "permissions": "<value>", "color": 638885, "hoist": false, "mentionable": false}, {"id": 425893, "name": "<value>", "permissions": "<value>", "color": 783922, "hoist": false, "mentionable": false}], "channels": []}}
+        4XX:
+          application/json: {"code": 638629, "message": "<value>"}
+  update_guild_template:
+    speakeasy-default-update-guild-template:
+      parameters:
+        path:
+          guild_id: "<value>"
+          code: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>", "name": "<value>", "usage_count": 767330, "creator_id": "<value>", "created_at": "2023-10-05T19:43:42.061Z", "updated_at": "2022-07-18T03:13:06.035Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 472583, "roles": [], "channels": []}}
+        4XX:
+          application/json: {"code": 494387, "message": "<value>"}
+  list_guild_templates:
+    speakeasy-default-list-guild-templates:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"code": "<value>", "name": "<value>", "usage_count": 690183, "creator_id": "<value>", "created_at": "2022-03-10T19:33:44.814Z", "updated_at": "2023-02-02T09:12:57.792Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 237937, "roles": [{"id": 37468, "name": "<value>", "permissions": "<value>", "color": 49645, "hoist": false, "mentionable": false}, {"id": 83530, "name": "<value>", "permissions": "<value>", "color": 208003, "hoist": true, "mentionable": false}], "channels": [{"type": 4, "bitrate": 792111, "user_limit": 718446, "nsfw": false, "rate_limit_per_user": 546556, "permission_overwrites": [{"id": "<value>", "allow": "<value>", "deny": "<value>"}], "template": "<value>"}, {"type": 2, "bitrate": 772914, "user_limit": 22394, "nsfw": true, "rate_limit_per_user": 82299, "permission_overwrites": [], "template": "<value>"}, {"type": 2, "bitrate": 689864, "user_limit": 809980, "nsfw": true, "rate_limit_per_user": 661589, "permission_overwrites": [{"id": "<value>", "allow": "<value>", "deny": "<value>"}, {"id": "<value>", "allow": "<value>", "deny": "<value>"}, {"id": "<value>", "allow": "<value>", "deny": "<value>"}], "template": "<value>"}]}}]
+        4XX:
+          application/json: {"code": 322830, "message": "<value>"}
+  create_guild_template:
+    speakeasy-default-create-guild-template:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"code": "<value>", "name": "<value>", "usage_count": 514507, "creator_id": "<value>", "created_at": "2023-03-28T18:04:00.067Z", "updated_at": "2024-07-07T15:40:16.283Z", "source_guild_id": "<value>", "serialized_source_guild": {"name": "<value>", "system_channel_flags": 446783, "roles": [{"id": 292830, "name": "<value>", "permissions": "<value>", "color": 850825, "hoist": false, "mentionable": true}], "channels": []}}
+        4XX:
+          application/json: {"code": 914113, "message": "<value>"}
+  get_guild_sticker:
+    speakeasy-default-get-guild-sticker:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sticker_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}
+        4XX:
+          application/json: {"code": 770916, "message": "<value>"}
+  delete_guild_sticker:
+    speakeasy-default-delete-guild-sticker:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sticker_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 596221, "message": "<value>"}
+  update_guild_sticker:
+    speakeasy-default-update-guild-sticker:
+      parameters:
+        path:
+          guild_id: "<value>"
+          sticker_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}
+        4XX:
+          application/json: {"code": 922828, "message": "<value>"}
+  bulk_ban_users_from_guild:
+    speakeasy-default-bulk-ban-users-from-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"user_ids": ["<value>", "<value>", "<value>"]}
+      responses:
+        "200":
+          application/json: {"banned_users": ["<value>", "<value>"], "failed_users": ["<value>"]}
+        4XX:
+          application/json: {"code": 469923, "message": "<value>"}
+  list_guild_stickers:
+    speakeasy-default-list-guild-stickers:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}, {"id": "<value>", "name": "<value>", "tags": "<value>", "available": true, "guild_id": "<value>"}]
+        4XX:
+          application/json: {"code": 776839, "message": "<value>"}
+  create_guild_sticker:
+    speakeasy-default-create-guild-sticker:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        multipart/form-data: {"name": "<value>", "tags": "<value>", "file": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "name": "<value>", "tags": "<value>", "available": true, "guild_id": "<value>"}
+        4XX:
+          application/json: {"code": 806936, "message": "<value>"}
+  get_guild_webhooks:
+    speakeasy-default-get-guild-webhooks:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: []
+        4XX:
+          application/json: {"code": 913683, "message": "<value>"}
+  list_guild_channels:
+    speakeasy-default-list-guild-channels:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "type": 11, "flags": 193766, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 773544, "member_count": 156582, "total_message_sent": 689551}, {"id": "<value>", "type": 15, "flags": 287139, "guild_id": "<value>", "name": "<value>", "position": 998197}, {"id": "<value>", "type": 1, "flags": 577647, "recipients": [{"id": "<value>", "username": "Nikki.Kshlerin", "discriminator": "<value>", "public_flags": 393655, "flags": 973943}, {"id": "<value>", "username": "Odie77", "discriminator": "<value>", "public_flags": 999804, "flags": 644599}, {"id": "<value>", "username": "Dixie65", "discriminator": "<value>", "public_flags": 56191, "flags": 100077}]}]
+        4XX:
+          application/json: {"code": 191561, "message": "<value>"}
+  create_guild_channel:
+    speakeasy-default-create-guild-channel:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "type": 14, "flags": 480741, "guild_id": "<value>", "name": "<value>", "position": 145683}
+        4XX:
+          application/json: {"code": 465887, "message": "<value>"}
+  bulk_update_guild_channels:
+    speakeasy-default-bulk-update-guild-channels:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 920501, "message": "<value>"}
+  get_guild_member:
+    speakeasy-default-get-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        "200":
+          application/json: {"flags": 732730, "joined_at": "2023-05-26T00:02:58.251Z", "pending": true, "roles": ["<value>", "<value>", "<value>"], "user": {"id": "<value>", "username": "Tremayne65", "discriminator": "<value>", "public_flags": 532311, "flags": 670822}, "mute": false, "deaf": true}
+        4XX:
+          application/json: {"code": 36322, "message": "<value>"}
+  add_guild_member:
+    speakeasy-default-add-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      requestBody:
+        application/json: {"access_token": "<value>"}
+      responses:
+        "201":
+          application/json: {"flags": 849137, "joined_at": "2023-07-21T20:05:33.490Z", "pending": true, "roles": ["<value>", "<value>"], "user": {"id": "<value>", "username": "Henderson.Littel-Zboncak72", "discriminator": "<value>", "public_flags": 152337, "flags": 442381}, "mute": true, "deaf": false}
+        4XX:
+          application/json: {"code": 847927, "message": "<value>"}
+  delete_guild_member:
+    speakeasy-default-delete-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 878120, "message": "<value>"}
+  update_guild_member:
+    speakeasy-default-update-guild-member:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        "200":
+          application/json: {"flags": 247479, "joined_at": "2024-04-25T06:41:23.700Z", "pending": true, "roles": ["<value>", "<value>"], "user": {"id": "<value>", "username": "Theresa51", "discriminator": "<value>", "public_flags": 394671, "flags": 630011}, "mute": true, "deaf": true}
+        4XX:
+          application/json: {"code": 877425, "message": "<value>"}
+  list_guild_members:
+    speakeasy-default-list-guild-members:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"flags": 684431, "joined_at": "2024-01-17T05:00:16.518Z", "pending": false, "roles": ["<value>", "<value>", "<value>"], "user": {"id": "<value>", "username": "Ada_Nikolaus43", "discriminator": "<value>", "public_flags": 888676, "flags": 781380}, "mute": true, "deaf": true}, {"flags": 794560, "joined_at": "2022-11-05T19:44:22.187Z", "pending": true, "roles": ["<value>", "<value>"], "user": {"id": "<value>", "username": "Stevie14", "discriminator": "<value>", "public_flags": 397177, "flags": 544312}, "mute": false, "deaf": true}]
+        4XX:
+          application/json: {"code": 115263, "message": "<value>"}
+  get_guild_preview:
+    speakeasy-default-get-guild-preview:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "features": ["<value>", "<value>", "<value>"], "approximate_member_count": 546083, "approximate_presence_count": 697984, "emojis": [{"id": "<value>", "name": "<value>", "roles": ["<value>"], "require_colons": false, "managed": true, "animated": true, "available": false}], "stickers": []}
+        4XX:
+          application/json: {"code": 516722, "message": "<value>"}
+  list_guild_invites:
+    speakeasy-default-list-guild-invites:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"code": "<value>"}, {"code": "<value>"}, {"code": "<value>"}]
+        4XX:
+          application/json: {"code": 562972, "message": "<value>"}
+  list_guild_voice_regions:
+    speakeasy-default-list-guild-voice-regions:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<id>", "name": "<value>", "custom": true, "deprecated": false, "optimal": true}]
+        4XX:
+          application/json: {"code": 19778, "message": "<value>"}
+  get_guild_emoji:
+    speakeasy-default-get-guild-emoji:
+      parameters:
+        path:
+          guild_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>", "<value>"], "require_colons": true, "managed": true, "animated": true, "available": false}
+        4XX:
+          application/json: {"code": 144003, "message": "<value>"}
+  delete_guild_emoji:
+    speakeasy-default-delete-guild-emoji:
+      parameters:
+        path:
+          guild_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 520932, "message": "<value>"}
+  update_guild_emoji:
+    speakeasy-default-update-guild-emoji:
+      parameters:
+        path:
+          guild_id: "<value>"
+          emoji_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "roles": [], "require_colons": true, "managed": false, "animated": false, "available": true}
+        4XX:
+          application/json: {"code": 193965, "message": "<value>"}
+  list_guild_emojis:
+    speakeasy-default-list-guild-emojis:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>", "roles": [], "require_colons": false, "managed": true, "animated": true, "available": false}]
+        4XX:
+          application/json: {"code": 413567, "message": "<value>"}
+  create_guild_emoji:
+    speakeasy-default-create-guild-emoji:
+      parameters:
+        path:
+          guild_id: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "image": "https://picsum.photos/seed/ROp2qJ/1929/1106"}
+      responses:
+        "201":
+          application/json: {"id": "<value>", "name": "<value>", "roles": [], "require_colons": false, "managed": true, "animated": false, "available": false}
+        4XX:
+          application/json: {"code": 997335, "message": "<value>"}
+  get_guild_widget_settings:
+    speakeasy-default-get-guild-widget-settings:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"enabled": true}
+        4XX:
+          application/json: {"code": 620828, "message": "<value>"}
+  update_guild_widget_settings:
+    speakeasy-default-update-guild-widget-settings:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"enabled": false}
+        4XX:
+          application/json: {"code": 946214, "message": "<value>"}
+  get_guild_role:
+    speakeasy-default-get-guild-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+          role_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 768102, "color": 294459, "hoist": false, "managed": false, "mentionable": true}
+        4XX:
+          application/json: {"code": 73928, "message": "<value>"}
+  delete_guild_role:
+    speakeasy-default-delete-guild-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+          role_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 698814, "message": "<value>"}
+  update_guild_role:
+    speakeasy-default-update-guild-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+          role_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 174473, "color": 78954, "hoist": true, "managed": true, "mentionable": false}
+        4XX:
+          application/json: {"code": 440546, "message": "<value>"}
+  list_guild_roles:
+    speakeasy-default-list-guild-roles:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 482792, "color": 447584, "hoist": true, "managed": false, "mentionable": true}, {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 386057, "color": 735580, "hoist": true, "managed": false, "mentionable": false}]
+        4XX:
+          application/json: {"code": 334499, "message": "<value>"}
+  create_guild_role:
+    speakeasy-default-create-guild-role:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 367576, "color": 964135, "hoist": true, "managed": false, "mentionable": true}
+        4XX:
+          application/json: {"code": 373919, "message": "<value>"}
+  bulk_update_guild_roles:
+    speakeasy-default-bulk-update-guild-roles:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: [{"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 648902, "color": 494481, "hoist": true, "managed": true, "mentionable": false}]
+        4XX:
+          application/json: {"code": 173203, "message": "<value>"}
+  preview_prune_guild:
+    speakeasy-default-preview-prune-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        4XX:
+          application/json: {"code": 117093, "message": "<value>"}
+        "200": {}
+  prune_guild:
+    speakeasy-default-prune-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 683489, "message": "<value>"}
+        "200": {}
+  get_guild_ban:
+    speakeasy-default-get-guild-ban:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        "200":
+          application/json: {"user": {"id": "<value>", "username": "Laron55", "discriminator": "<value>", "public_flags": 918731, "flags": 51763}}
+        4XX:
+          application/json: {"code": 849794, "message": "<value>"}
+  ban_user_from_guild:
+    speakeasy-default-ban-user-from-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 89199, "message": "<value>"}
+  unban_user_from_guild:
+    speakeasy-default-unban-user-from-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+          user_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 165390, "message": "<value>"}
+  list_guild_bans:
+    speakeasy-default-list-guild-bans:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: [{"user": {"id": "<value>", "username": "Ruth_Vandervort-Crooks", "discriminator": "<value>", "public_flags": 446956, "flags": 436733}}, {"user": {"id": "<value>", "username": "Camryn.Kovacek29", "discriminator": "<value>", "public_flags": 403773, "flags": 726860}}]
+        4XX:
+          application/json: {"code": 588871, "message": "<value>"}
+  set_guild_mfa_level:
+    speakeasy-default-set-guild-mfa-level:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 600289, "message": "<value>"}
+        "200": {}
+  get_stage_instance:
+    speakeasy-default-get-stage-instance:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "channel_id": "<value>", "topic": "<value>", "id": "<value>"}
+        4XX:
+          application/json: {"code": 39165, "message": "<value>"}
+  delete_stage_instance:
+    speakeasy-default-delete-stage-instance:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 54414, "message": "<value>"}
+  update_stage_instance:
+    speakeasy-default-update-stage-instance:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"guild_id": "<value>", "channel_id": "<value>", "topic": "<value>", "id": "<value>"}
+        4XX:
+          application/json: {"code": 135133, "message": "<value>"}
+  get_sticker_pack:
+    speakeasy-default-get-sticker-pack:
+      parameters:
+        path:
+          pack_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "sku_id": "<value>", "name": "<value>", "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "pack_id": "<value>", "sort_value": 244060}, {"id": "<value>", "name": "<value>", "tags": "<value>", "pack_id": "<value>", "sort_value": 392989}]}
+        4XX:
+          application/json: {"code": 879831, "message": "<value>"}
+  get_application:
+    speakeasy-default-get-application:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "description": "meanwhile mmm gently ostrich eek into old hearten wry that", "verify_key": "<value>", "flags": 96576, "redirect_uris": ["https://juvenile-resolve.net/"], "owner": {"id": "<value>", "username": "Marcellus_Ortiz", "discriminator": "<value>", "public_flags": 422943, "flags": 180370}, "approximate_user_install_count": 633955}
+        4XX:
+          application/json: {"code": 367777, "message": "<value>"}
+  update_application:
+    speakeasy-default-update-application:
+      parameters:
+        path:
+          application_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "description": "ill-fated off lovely from", "verify_key": "<value>", "flags": 604619, "redirect_uris": [], "owner": {"id": "<value>", "username": "Porter_Franey-Champlin1", "discriminator": "<value>", "public_flags": 486156, "flags": 401967}, "approximate_user_install_count": 95564}
+        4XX:
+          application/json: {"code": 575795, "message": "<value>"}
+  get_webhook_by_token:
+    speakeasy-default-get-webhook-by-token:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>"}
+        4XX:
+          application/json: {"code": 543656, "message": "<value>"}
+  delete_webhook_by_token:
+    speakeasy-default-delete-webhook-by-token:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 326519, "message": "<value>"}
+  update_webhook_by_token:
+    speakeasy-default-update-webhook-by-token:
+      parameters:
+        path:
+          webhook_id: "<value>"
+          webhook_token: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>"}
+        4XX:
+          application/json: {"code": 723642, "message": "<value>"}
+  get_sticker:
+    speakeasy-default-get-sticker:
+      parameters:
+        path:
+          sticker_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "tags": "<value>", "pack_id": "<value>", "sort_value": 96105}
+        4XX:
+          application/json: {"code": 505891, "message": "<value>"}
+  get_webhook:
+    speakeasy-default-get-webhook:
+      parameters:
+        path:
+          webhook_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>"}
+        4XX:
+          application/json: {"code": 876350, "message": "<value>"}
+  delete_webhook:
+    speakeasy-default-delete-webhook:
+      parameters:
+        path:
+          webhook_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 374975, "message": "<value>"}
+  update_webhook:
+    speakeasy-default-update-webhook:
+      parameters:
+        path:
+          webhook_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>"}
+        4XX:
+          application/json: {"code": 95909, "message": "<value>"}
+  get_channel:
+    speakeasy-default-get-channel:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "type": 11, "flags": 448861, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 845339, "member_count": 348201, "total_message_sent": 820767}
+        4XX:
+          application/json: {"code": 756477, "message": "<value>"}
+  delete_channel:
+    speakeasy-default-delete-channel:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "type": 3, "flags": 463730, "recipients": [{"id": "<value>", "username": "Freida.Emard50", "discriminator": "<value>", "public_flags": 807857, "flags": 762045}]}
+        4XX:
+          application/json: {"code": 920809, "message": "<value>"}
+  update_channel:
+    speakeasy-default-update-channel:
+      parameters:
+        path:
+          channel_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "type": 11, "flags": 476988, "guild_id": "<value>", "name": "<value>", "owner_id": "<value>", "message_count": 657895, "member_count": 942400, "total_message_sent": 441579}
+        4XX:
+          application/json: {"code": 93485, "message": "<value>"}
+  invite_resolve:
+    speakeasy-default-invite-resolve:
+      parameters:
+        path:
+          code: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"code": "<value>"}
+        4XX:
+          application/json: {"code": 957549, "message": "<value>"}
+  invite_revoke:
+    speakeasy-default-invite-revoke:
+      parameters:
+        path:
+          code: "<value>"
+      responses:
+        "200":
+          application/json: {"code": "<value>"}
+        4XX:
+          application/json: {"code": 459471, "message": "<value>"}
+  get_guild:
+    speakeasy-default-get-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "features": ["<value>"], "owner_id": "<value>", "region": "<value>", "system_channel_flags": 97263, "widget_enabled": false, "roles": [{"id": "<value>", "name": "<value>", "permissions": "<value>", "position": 681845, "color": 105951, "hoist": true, "managed": false, "mentionable": true}], "premium_subscription_count": 953261, "premium_progress_bar_enabled": true, "nsfw": true, "emojis": [{"id": "<value>", "name": "<value>", "roles": [], "require_colons": false, "managed": true, "animated": true, "available": false}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>", "<value>"], "require_colons": true, "managed": false, "animated": true, "available": true}, {"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>"], "require_colons": true, "managed": true, "animated": false, "available": false}], "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}, {"id": "<value>", "name": "<value>", "tags": "<value>", "available": true, "guild_id": "<value>"}, {"id": "<value>", "name": "<value>", "tags": "<value>", "available": false, "guild_id": "<value>"}]}
+        4XX:
+          application/json: {"code": 275318, "message": "<value>"}
+  delete_guild:
+    speakeasy-default-delete-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        4XX:
+          application/json: {"code": 231934, "message": "<value>"}
+  update_guild:
+    speakeasy-default-update-guild:
+      parameters:
+        path:
+          guild_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "name": "<value>", "features": ["<value>"], "owner_id": "<value>", "region": "<value>", "system_channel_flags": 435309, "widget_enabled": false, "roles": [], "premium_subscription_count": 125659, "premium_progress_bar_enabled": true, "nsfw": false, "emojis": [{"id": "<value>", "name": "<value>", "roles": ["<value>", "<value>"], "require_colons": false, "managed": true, "animated": false, "available": false}], "stickers": [{"id": "<value>", "name": "<value>", "tags": "<value>", "available": true, "guild_id": "<value>"}]}
+        4XX:
+          application/json: {"code": 693308, "message": "<value>"}
+  get_user:
+    speakeasy-default-get-user:
+      parameters:
+        path:
+          user_id: "<value>"
+      responses:
+        "200":
+          application/json: {"id": "<value>", "username": "Hailie_Hackett", "discriminator": "<value>", "public_flags": 554950, "flags": 873496}
+        4XX:
+          application/json: {"code": 442991, "message": "<value>"}

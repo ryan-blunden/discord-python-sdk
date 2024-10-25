@@ -1,0 +1,9 @@
+# UserCommunicationDisabledAction
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `metadata`                                                                                             | [models.UserCommunicationDisabledActionMetadata](../models/usercommunicationdisabledactionmetadata.md) | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `type`                                                                                                 | *Literal[1]*                                                                                           | :heavy_check_mark:                                                                                     | N/A                                                                                                    |

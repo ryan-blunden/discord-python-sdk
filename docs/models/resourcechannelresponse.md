@@ -1,0 +1,12 @@
+# ResourceChannelResponse
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `channel_id`                                                                         | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `title`                                                                              | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `description`                                                                        | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `emoji`                                                                              | [OptionalNullable[models.SettingsEmojiResponse]](../models/settingsemojiresponse.md) | :heavy_minus_sign:                                                                   | N/A                                                                                  |
+| `icon`                                                                               | *OptionalNullable[str]*                                                              | :heavy_minus_sign:                                                                   | N/A                                                                                  |

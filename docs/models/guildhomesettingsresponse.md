@@ -1,0 +1,12 @@
+# GuildHomeSettingsResponse
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `guild_id`                                                                             | *str*                                                                                  | :heavy_check_mark:                                                                     | N/A                                                                                    |
+| `enabled`                                                                              | *bool*                                                                                 | :heavy_check_mark:                                                                     | N/A                                                                                    |
+| `welcome_message`                                                                      | [OptionalNullable[models.WelcomeMessageResponse]](../models/welcomemessageresponse.md) | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `new_member_actions`                                                                   | List[[models.NewMemberActionResponse](../models/newmemberactionresponse.md)]           | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `resource_channels`                                                                    | List[[models.ResourceChannelResponse](../models/resourcechannelresponse.md)]           | :heavy_minus_sign:                                                                     | N/A                                                                                    |

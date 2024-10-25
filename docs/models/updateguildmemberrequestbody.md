@@ -1,0 +1,14 @@
+# UpdateGuildMemberRequestBody
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `nick`                                                               | *OptionalNullable[str]*                                              | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `roles`                                                              | List[*str*]                                                          | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `mute`                                                               | *OptionalNullable[bool]*                                             | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `deaf`                                                               | *OptionalNullable[bool]*                                             | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `channel_id`                                                         | *OptionalNullable[str]*                                              | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `communication_disabled_until`                                       | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `flags`                                                              | *OptionalNullable[int]*                                              | :heavy_minus_sign:                                                   | N/A                                                                  |

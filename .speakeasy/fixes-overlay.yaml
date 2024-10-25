@@ -1,0 +1,235 @@
+overlay: 1.0.0
+info:
+  title: Overlay downloaded_GUGNHiBWNx.json => .speakeasy/openapi-fixes.yaml
+  version: 0.0.0
+actions:
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}/messages/@original"]["patch"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/guilds/{guild_id}/auto-moderation/rules/{rule_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/DefaultKeywordListUpsertRequestPartial'
+        - $ref: '#/components/schemas/KeywordUpsertRequestPartial'
+        - $ref: '#/components/schemas/MLSpamUpsertRequestPartial'
+        - $ref: '#/components/schemas/MentionSpamUpsertRequestPartial'
+  - target: $["paths"]["/guilds/{guild_id}/auto-moderation/rules/{rule_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/ApplicationCommandAutocompleteCallbackRequest'
+        - $ref: '#/components/schemas/CreateMessageInteractionCallbackRequest'
+        - $ref: '#/components/schemas/LaunchActivityInteractionCallbackRequest'
+        - $ref: '#/components/schemas/ModalInteractionCallbackRequest'
+        - $ref: '#/components/schemas/PongInteractionCallbackRequest'
+        - $ref: '#/components/schemas/UpdateMessageInteractionCallbackRequest'
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/ApplicationCommandAutocompleteCallbackRequest'
+        - $ref: '#/components/schemas/CreateMessageInteractionCallbackRequest'
+        - $ref: '#/components/schemas/LaunchActivityInteractionCallbackRequest'
+        - $ref: '#/components/schemas/ModalInteractionCallbackRequest'
+        - $ref: '#/components/schemas/PongInteractionCallbackRequest'
+        - $ref: '#/components/schemas/UpdateMessageInteractionCallbackRequest'
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/ApplicationCommandAutocompleteCallbackRequest'
+        - $ref: '#/components/schemas/CreateMessageInteractionCallbackRequest'
+        - $ref: '#/components/schemas/LaunchActivityInteractionCallbackRequest'
+        - $ref: '#/components/schemas/ModalInteractionCallbackRequest'
+        - $ref: '#/components/schemas/PongInteractionCallbackRequest'
+        - $ref: '#/components/schemas/UpdateMessageInteractionCallbackRequest'
+  - target: $["paths"]["/interactions/{interaction_id}/{interaction_token}/callback"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/messages/{message_id}"]["patch"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/messages/{message_id}"]["patch"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/messages"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/messages"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/FriendInviteResponse'
+        - $ref: '#/components/schemas/GroupDMInviteResponse'
+        - $ref: '#/components/schemas/GuildInviteResponse'
+          # x-discord-union: oneOf
+  - target: $["paths"]["/channels/{channel_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]["x-discord-union"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/invites"]["post"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/CreateGroupDMInviteRequest'
+        - $ref: '#/components/schemas/CreateGuildInviteRequest'
+  - target: $["paths"]["/channels/{channel_id}/invites"]["post"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/invites"]["post"]["responses"]["200"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/FriendInviteResponse'
+        - $ref: '#/components/schemas/GroupDMInviteResponse'
+        - $ref: '#/components/schemas/GuildInviteResponse'
+  - target: $["paths"]["/channels/{channel_id}/invites"]["post"]["responses"]["200"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/CreateForumThreadRequest'
+        - $ref: '#/components/schemas/CreateTextThreadWithoutMessageRequest'
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/CreateForumThreadRequest'
+        - $ref: '#/components/schemas/CreateTextThreadWithoutMessageRequest'
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/CreateForumThreadRequest'
+        - $ref: '#/components/schemas/CreateTextThreadWithoutMessageRequest'
+  - target: $["paths"]["/channels/{channel_id}/threads"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}/messages/{message_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}/messages/{message_id}"]["patch"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}/messages/{message_id}"]["patch"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/ExternalScheduledEventPatchRequestPartial'
+        - $ref: '#/components/schemas/StageScheduledEventPatchRequestPartial'
+        - $ref: '#/components/schemas/VoiceScheduledEventPatchRequestPartial'
+  - target: $["paths"]["/guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/guilds/{guild_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/FriendInviteResponse'
+        - $ref: '#/components/schemas/GroupDMInviteResponse'
+        - $ref: '#/components/schemas/GuildInviteResponse'
+          # x-discord-union: oneOf
+  - target: $["paths"]["/guilds/{guild_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/guilds/{guild_id}/invites"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["items"]["x-discord-union"]
+    remove: true
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/IncomingWebhookRequestPartial'
+        - $ref: '#/components/schemas/IncomingWebhookUpdateRequestPartial'
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/IncomingWebhookRequestPartial'
+        - $ref: '#/components/schemas/IncomingWebhookUpdateRequestPartial'
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      type: object
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/IncomingWebhookRequestPartial'
+        - $ref: '#/components/schemas/IncomingWebhookUpdateRequestPartial'
+  - target: $["paths"]["/webhooks/{webhook_id}/{webhook_token}"]["post"]["requestBody"]["content"]["multipart/form-data"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/channels/{channel_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/PrivateChannelRequestPartial'
+        - $ref: '#/components/schemas/UpdateGuildChannelRequestPartial'
+        - $ref: '#/components/schemas/UpdateThreadRequestPartial'
+  - target: $["paths"]["/channels/{channel_id}"]["patch"]["requestBody"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/invites/{code}"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/FriendInviteResponse'
+        - $ref: '#/components/schemas/GroupDMInviteResponse'
+        - $ref: '#/components/schemas/GuildInviteResponse'
+  - target: $["paths"]["/invites/{code}"]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["paths"]["/invites/{code}"]["delete"]["responses"]["200"]["content"]["application/json"]["schema"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/FriendInviteResponse'
+        - $ref: '#/components/schemas/GroupDMInviteResponse'
+        - $ref: '#/components/schemas/GuildInviteResponse'
+  - target: $["paths"]["/invites/{code}"]["delete"]["responses"]["200"]["content"]["application/json"]["schema"]["anyOf"]
+    remove: true
+  - target: $["components"]["schemas"]["ApplicationCommandAutocompleteCallbackRequest"]["properties"]["data"]
+    update:
+      oneOf:
+        - $ref: '#/components/schemas/InteractionApplicationCommandAutocompleteCallbackIntegerData'
+        - $ref: '#/components/schemas/InteractionApplicationCommandAutocompleteCallbackNumberData'
+        - $ref: '#/components/schemas/InteractionApplicationCommandAutocompleteCallbackStringData'
+  - target: $["components"]["schemas"]["ApplicationCommandAutocompleteCallbackRequest"]["properties"]["data"]["anyOf"]
+    remove: true
+  - target: $["components"]["schemas"]["ApplicationCommandHandler"]["oneOf"]
+    remove: true
+  - target: $["components"]["schemas"]["ApplicationIntegrationType"]["oneOf"]
+    remove: true
+  - target: $["components"]["schemas"]["CreateGuildChannelRequest"]["properties"]["type"]["oneOf"][1]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["CreateGuildRequestChannelItem"]["properties"]["type"]["oneOf"][1]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["CreateTextThreadWithoutMessageRequest"]["properties"]["type"]["oneOf"][1]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["CreatedThreadResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["EntitlementOwnerTypes"]["oneOf"]
+    remove: true
+  - target: $["components"]["schemas"]["GuildChannelResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["GuildTemplateChannelResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["InteractionContextType"]["oneOf"]
+    remove: true
+  - target: $["components"]["schemas"]["PollLayoutTypes"]["oneOf"]
+    remove: true
+  - target: $["components"]["schemas"]["PrivateChannelResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["PrivateGroupChannelResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["ThreadResponse"]["properties"]["type"]["allOf"]
+    remove: true
+  - target: $["components"]["schemas"]["UpdateGuildChannelRequestPartial"]["properties"]["type"]["oneOf"][1]["allOf"]
+    remove: true

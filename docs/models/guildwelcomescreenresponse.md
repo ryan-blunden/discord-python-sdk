@@ -1,0 +1,9 @@
+# GuildWelcomeScreenResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `welcome_channels`                                                                               | List[[models.GuildWelcomeScreenChannelResponse](../models/guildwelcomescreenchannelresponse.md)] | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `description`                                                                                    | *OptionalNullable[str]*                                                                          | :heavy_minus_sign:                                                                               | N/A                                                                                              |

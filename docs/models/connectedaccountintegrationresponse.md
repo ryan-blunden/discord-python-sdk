@@ -1,0 +1,11 @@
+# ConnectedAccountIntegrationResponse
+
+
+## Fields
+
+| Field                                                                              | Type                                                                               | Required                                                                           | Description                                                                        |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `id`                                                                               | *str*                                                                              | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `account`                                                                          | [models.AccountResponse](../models/accountresponse.md)                             | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `guild`                                                                            | [models.ConnectedAccountGuildResponse](../models/connectedaccountguildresponse.md) | :heavy_check_mark:                                                                 | N/A                                                                                |
+| `type`                                                                             | *Literal["discord"]*                                                               | :heavy_check_mark:                                                                 | N/A                                                                                |

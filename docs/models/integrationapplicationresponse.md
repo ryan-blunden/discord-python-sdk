@@ -1,0 +1,15 @@
+# IntegrationApplicationResponse
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `id`                                                               | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `name`                                                             | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `description`                                                      | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `icon`                                                             | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `type`                                                             | *OptionalNullable[Literal[4]]*                                     | :heavy_minus_sign:                                                 | N/A                                                                |
+| `cover_image`                                                      | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `primary_sku_id`                                                   | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `bot`                                                              | [OptionalNullable[models.UserResponse]](../models/userresponse.md) | :heavy_minus_sign:                                                 | N/A                                                                |

@@ -1,0 +1,12 @@
+# PollCreateRequest
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `question`                                                                   | [models.PollMedia](../models/pollmedia.md)                                   | :heavy_check_mark:                                                           | N/A                                                                          |
+| `answers`                                                                    | List[[models.PollAnswerCreateRequest](../models/pollanswercreaterequest.md)] | :heavy_check_mark:                                                           | N/A                                                                          |
+| `allow_multiselect`                                                          | *OptionalNullable[bool]*                                                     | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `layout_type`                                                                | *OptionalNullable[int]*                                                      | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `duration`                                                                   | *OptionalNullable[int]*                                                      | :heavy_minus_sign:                                                           | N/A                                                                          |

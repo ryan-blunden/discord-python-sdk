@@ -1,0 +1,16 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Discord-OAS:
+        inputs:
+            - location: https://raw.githubusercontent.com/discord/discord-api-spec/refs/heads/main/specs/openapi.json
+        overlays:
+            - location: .speakeasy/fixes-overlay.yaml
+            - location: .speakeasy/speakeasy-modifications-overlay-1.yaml
+        output: .speakeasy/generated-openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/ryan-blunden-l5y/ryan-blunden/discord-oas
+targets:
+    discord:
+        target: python
+        source: Discord-OAS

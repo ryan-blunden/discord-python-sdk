@@ -1,0 +1,9 @@
+# QuarantineUserActionResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `metadata`                                                                                       | [models.QuarantineUserActionMetadataResponse](../models/quarantineuseractionmetadataresponse.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `type`                                                                                           | *Literal[1]*                                                                                     | :heavy_check_mark:                                                                               | N/A                                                                                              |

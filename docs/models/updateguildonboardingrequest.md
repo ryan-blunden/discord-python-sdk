@@ -1,0 +1,11 @@
+# UpdateGuildOnboardingRequest
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `prompts`                                                                                | List[[models.UpdateOnboardingPromptRequest](../models/updateonboardingpromptrequest.md)] | :heavy_minus_sign:                                                                       | N/A                                                                                      |
+| `enabled`                                                                                | *OptionalNullable[bool]*                                                                 | :heavy_minus_sign:                                                                       | N/A                                                                                      |
+| `default_channel_ids`                                                                    | List[*str*]                                                                              | :heavy_minus_sign:                                                                       | N/A                                                                                      |
+| `mode`                                                                                   | *OptionalNullable[Literal[0]]*                                                           | :heavy_minus_sign:                                                                       | N/A                                                                                      |

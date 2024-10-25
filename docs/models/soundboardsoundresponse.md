@@ -1,0 +1,15 @@
+# SoundboardSoundResponse
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `name`                                                             | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `sound_id`                                                         | *str*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `volume`                                                           | *float*                                                            | :heavy_check_mark:                                                 | N/A                                                                |
+| `available`                                                        | *bool*                                                             | :heavy_check_mark:                                                 | N/A                                                                |
+| `emoji_id`                                                         | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `emoji_name`                                                       | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `guild_id`                                                         | *OptionalNullable[str]*                                            | :heavy_minus_sign:                                                 | N/A                                                                |
+| `user`                                                             | [OptionalNullable[models.UserResponse]](../models/userresponse.md) | :heavy_minus_sign:                                                 | N/A                                                                |

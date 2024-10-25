@@ -1,0 +1,10 @@
+# CreateThreadFromMessageRequest
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `channel_id`                                                                                 | *str*                                                                                        | :heavy_check_mark:                                                                           | N/A                                                                                          |
+| `message_id`                                                                                 | *str*                                                                                        | :heavy_check_mark:                                                                           | N/A                                                                                          |
+| `create_text_thread_with_message_request`                                                    | [models.CreateTextThreadWithMessageRequest](../models/createtextthreadwithmessagerequest.md) | :heavy_check_mark:                                                                           | N/A                                                                                          |

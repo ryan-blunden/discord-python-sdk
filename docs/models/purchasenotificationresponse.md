@@ -1,0 +1,9 @@
+# PurchaseNotificationResponse
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `type`                                                                                             | *Literal[0]*                                                                                       | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `guild_product_purchase`                                                                           | [OptionalNullable[models.GuildProductPurchaseResponse]](../models/guildproductpurchaseresponse.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

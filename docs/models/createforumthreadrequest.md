@@ -1,0 +1,12 @@
+# CreateForumThreadRequest
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `name`                                                                               | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `message`                                                                            | [models.BaseCreateMessageCreateRequest](../models/basecreatemessagecreaterequest.md) | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `auto_archive_duration`                                                              | *OptionalNullable[Literal[60]]*                                                      | :heavy_minus_sign:                                                                   | N/A                                                                                  |
+| `rate_limit_per_user`                                                                | *OptionalNullable[int]*                                                              | :heavy_minus_sign:                                                                   | N/A                                                                                  |
+| `applied_tags`                                                                       | List[*str*]                                                                          | :heavy_minus_sign:                                                                   | N/A                                                                                  |

@@ -1,0 +1,10 @@
+# UpdateApplicationEmojiRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `application_id`                                                                           | *str*                                                                                      | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| `emoji_id`                                                                                 | *str*                                                                                      | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| `request_body`                                                                             | [models.UpdateApplicationEmojiRequestBody](../models/updateapplicationemojirequestbody.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |

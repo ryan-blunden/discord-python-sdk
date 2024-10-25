@@ -1,0 +1,31 @@
+speakeasyVersion: 1.421.2
+sources:
+    Discord-OAS:
+        sourceNamespace: discord-oas
+        sourceRevisionDigest: sha256:7b686fdd9aa7f60b5da6e8ee6e49e4a54887a378cc5fbf4ae06b558dee06d475
+        sourceBlobDigest: sha256:a7e7ac48d593d5dbb4fda1d783d9981ad791f1eb2e7c9adc5dfcdffb6767a434
+        tags:
+            - latest
+targets:
+    discord:
+        source: Discord-OAS
+        sourceNamespace: discord-oas
+        sourceRevisionDigest: sha256:7b686fdd9aa7f60b5da6e8ee6e49e4a54887a378cc5fbf4ae06b558dee06d475
+        sourceBlobDigest: sha256:a7e7ac48d593d5dbb4fda1d783d9981ad791f1eb2e7c9adc5dfcdffb6767a434
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Discord-OAS:
+            inputs:
+                - location: https://raw.githubusercontent.com/discord/discord-api-spec/refs/heads/main/specs/openapi.json
+            overlays:
+                - location: .speakeasy/fixes-overlay.yaml
+                - location: .speakeasy/speakeasy-modifications-overlay-1.yaml
+            output: .speakeasy/generated-openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/ryan-blunden-l5y/ryan-blunden/discord-oas
+    targets:
+        discord:
+            target: python
+            source: Discord-OAS

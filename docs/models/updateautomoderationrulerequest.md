@@ -1,0 +1,10 @@
+# UpdateAutoModerationRuleRequest
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `guild_id`                                                                                     | *str*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `rule_id`                                                                                      | *str*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `request_body`                                                                                 | [models.UpdateAutoModerationRuleRequestBody](../models/updateautomoderationrulerequestbody.md) | :heavy_check_mark:                                                                             | N/A                                                                                            |

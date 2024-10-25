@@ -1,0 +1,10 @@
+# GatewayBotResponse
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `url`                                                                                          | *str*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `session_start_limit`                                                                          | [models.GatewayBotSessionStartLimitResponse](../models/gatewaybotsessionstartlimitresponse.md) | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `shards`                                                                                       | *int*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
